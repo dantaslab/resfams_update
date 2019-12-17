@@ -8,7 +8,7 @@
 ### 1) Construct Phylogenetic Trees
   Start with a set of sequences believed to be related in fasta format (for example Class A beta-lactamases)<br> * We used existing Resfams families and supplemented with CARD data, separated into broad family groups.
 
-  I. cd-hit with a "c" value of 1.0 was used to remove redundant sequences
+  I. cd-hit with a cutoff value of 1.0 was used to remove redundant sequences
 
     cd-hit -i family_seqs.faa -o family_cdhit.faa -c 1.0
 
