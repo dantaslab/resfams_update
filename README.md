@@ -105,3 +105,10 @@ V. Using results of precision and recall analysis, gathering thresholds and if n
 
 
 ### 4) Compile HMMs and Rename HMM sequences
+
+
+---
+
+# Analysis
+
+### 1) Comparative Analysis
