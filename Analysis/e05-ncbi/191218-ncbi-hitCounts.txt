@@ -1,0 +1,3 @@
+ncbi	card	255	1282	858	2396
+ncbi	megares	608	2648	2134	5391
+ncbi	fxnl_complete	937	699	593	2230

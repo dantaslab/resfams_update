@@ -1,0 +1,445 @@
+Accession	family	query_name	Resfams_description	Ontology_Level
+NF000500.2	gb|13384-14226	OXA-58 family carbapenem-hydrolyzing class D beta-lactamase	variant
+NF000108.1	gb|AAA03550.1|ARO:3002523|AAC(2')-Ia	aminoglycoside N-acetyltransferase AAC(2')-Ia	variant
+NF033612.0	gb|AAA16194.1|ARO:3002540|AAC(3)-VIa	aminoglycoside N-acetyltransferase AAC(3)-VIa	variant
+NF012212.0	gb|AAA16527.1|ARO:3002630|ANT(9)-Ia	ANT(9) family aminoglycoside nucleotidyltransferase	gene
+NF033103.1	gb|AAA19882.1|ARO:3003562|blaF	class A beta-lactamase	family
+NF000043.1	gb|AAA20116.1|ARO:3000180|tetA(P)	tetracycline efflux MFS transporter TetA(P)	gene
+NF012153.1	gb|AAA20117.1|ARO:3000195|tetB(P)	tetracycline resistance ribosomal protection protein	family
+NF033102.1	gb|AAA21532.1|ARO:3003559|cepA	CepA family class A extended-spectrum beta-lactamase	gene
+NF000224.3	gb|AAA21889.1|ARO:3002554|AAC(6')-Ig	AAC(6')-Ighjkrstuvwx family aminoglycoside N-acetyltransferase	family
+NF000490.1	gb|AAA22081.1|ARO:3004451|Agrobacterium	type B chloramphenicol O-acetyltransferase	gene
+NF000491.1	gb|AAA22289.1|ARO:3002672|Bacillus	type A chloramphenicol O-acetyltransferase	gene
+NF033095.1	gb|AAA22562.1|ARO:3002878|BcII	BcII family subclass B1 metallo-beta-lactamase	gene
+NF000499.1	gb|AAA22597.1|ARO:3000495|ErmD	23S ribosomal RNA methyltransferase Erm	gene
+NF012185.0	gb|AAA22851.1|ARO:3000179|tet(L)	tetracycline efflux MFS transporter Tet(L)	gene
+NF000322.2	gb|AAA22904.1|ARO:3000578|CcrA	CcrA family subclass B1 metallo-beta-lactamase	gene
+NF033148.1	gb|AAA23033.2|ARO:3000190|tetO	TetM/TetW/TetO/TetS family tetracycline resistance ribosomal protection protein	family
+NF012213.0	gb|AAA24786.1|ARO:3000368|vanC	D-alanine--D-serine ligase VanC1	gene
+NF000531.2	gb|AAA25053.1|ARO:3000884|TEM-12	TEM family class A beta-lactamase	gene
+NF033082.0	gb|AAA25334.1|ARO:3002543|AAC(3)-IXa	aminoglycoside 3-N-acetyltransferase	gene
+NF000019.2	gb|AAA25550.1|ARO:3003105|dfrA3	trimethoprim-resistant dihydrofolate reductase DfrA3	variant
+NF012165.0	gb|AAA25680.1|ARO:3002595|AAC(6')-IIb	aminoglycoside 6'-N-acetyltransferase	family
+NF028535.0	gb|AAA25717.1|ARO:3002624|ANT(4')-IIa	ANT(4')-II family aminoglycoside nucleotidyltransferase	variant
+NF000509.1	gb|AAA26057.1|ARO:3002693|cmlA1	CmlA family chloramphenicol efflux MFS transporter	gene
+NF033059.2	gb|AAA26412.1|ARO:3002642|APH(3')-Ib	APH(3')-I family aminoglycoside O-phosphotransferase	variant
+NF033080.0	gb|AAA26548.1|ARO:3002534|AAC(3)-IIb	AAC(3)-II family aminoglycoside N-acetyltransferase	variant
+NF000236.1	gb|AAA26652.1|ARO:3002835|lnuA	lincosamide nucleotidyltransferase Lnu(A)	gene
+NF000101.1	gb|AAA26683.1|ARO:3002840|vatA	streptogramin A O-acetyltransferase Vat(A)	gene
+NF000170.1	gb|AAA26684.1|ARO:3002829|vgaA	Vga family ABC-F type ribosomal protection protein	family
+NF033180.1	gb|AAA26685.1|ARO:3002542|AAC(3)-VIIIa	aminoglycoside N-acetyltransferase AAC(3)-VIII	variant
+NF032897.1	gb|AAA26699.1|ARO:3002649|APH(3')-Va	APH(3')-V family aminoglycoside O-phosphotransferase	variant
+NF000024.1	gb|AAA26742.1|ARO:3001304|ErmS	23S rRNA (adenine(2058)-N(6))-methyltransferase Erm(S)	gene
+NF033099.1	gb|AAA26775.1|ARO:3003564|EXO	Exo family class A beta-lactamase	gene
+NF000087.1	gb|AAA26779.1|ARO:3004652|Erm(O)-lrm	23S rRNA (adenine(2058)-N(6))-methyltransferase Erm(O)	gene
+NF000171.1	gb|AAA26832.1|ARO:3002827|tlrC	TlrC/CarA/OleB/SrmB family ABC-F type ribosomal protection protein	family
+NF033387.1	gb|AAA27459.1|ARO:3004683|aadS	AadS family aminoglycoside 6-adenylyltransferase	variant
+NF033111.2	gb|AAA27471.1|ARO:3000205|tetX	tetracycline-inactivating monooxygenase Tet(X)	gene
+NF000401.1	gb|AAA65953.1|ARO:3002919|vanRA	VanA-type vancomycin resistance DNA-binding response regulator VanR	family
+NF033091.0	gb|AAA65954.1|ARO:3002931|vanSA	vancomycin resistance histidine kinase VanS	gene
+NF000371.1	gb|AAA65955.1|ARO:3002942|vanHA	VanH-A/VanH-Pt family D-lactate dehydrogenase	family
+NF012217.1	gb|AAA65956.1|ARO:3000010|vanA	D-alanine--(R)-lactate ligase VanA	variant
+NF033115.1	gb|AAA65957.1|ARO:3002949|vanXA	D-Ala-D-Ala dipeptidase VanX	gene
+NF000472.1	gb|AAA65958.1|ARO:3002955|vanYA	VanY-A/VanY-F/VanY-M family D-Ala-D-Ala carboxypeptidase	variant
+NF033125.2	gb|AAA65959.1|ARO:3002962|vanZA	glycopeptide resistance protein VanZ-A	family
+NF012187.0	gb|AAA71915.1|ARO:3000173|tet(E)	tetracycline efflux MFS transporter Tet(E)	gene
+NF033067.1	gb|AAA76822.1|ARO:3002654|APH(3')-VIIa	aminoglycoside O-phosphotransferase APH(3')-VIIa	variant
+NF033702.0	gb|AAA83417.1|ARO:3001407|OXA-12	OXA-12 family class D beta-lactamase	variant
+NF000159.1	gb|AAA85213.1|ARO:3002866|dfrD	trimethoprim-resistant dihydrofolate reductase DfrD	gene
+NF000311.1	gb|AAA86871.1|ARO:3002841|vatB	Vat family streptogramin A O-acetyltransferase	family
+NF000285.3	gb|AAA87176.1|ARO:3001066|SHV-7	SHV family class A beta-lactamase	gene
+NF033083.0	gb|AAA88422.1|ARO:3002530|AAC(3)-Ib	AAC(3)-I family aminoglycoside 3-N-acetyltransferase	variant
+NF000507.1	gb|AAA88548.1|ARO:3002597|AAC(6')-Ie-APH(2'')-Ia	aminoglycoside N-acetyltransferase AAC(6')-Ie	variant
+NF000508.1	gb|AAA88548.1|ARO:3002597|AAC(6')-Ie-APH(2'')-Ia	aminoglycoside O-phosphotransferase APH(2'')-Ia	variant
+NF000487.1	gb|AAA88560.1|ARO:3004699|sta	streptothricin N-acetyltransferase STAT	gene
+NF012223.0	gb|AAA88675.1|ARO:3000498|ErmF	23S rRNA (adenine(2058)-N(6))-methyltransferase Erm(F)	gene
+NF000158.2	gb|AAA90937.1|ARO:3004635|AAC(6')-Il	aminoglycoside N-acetyltransferase AAC(6')-Il	family
+NF000400.2	gb|AAA93461.1|ARO:3001858|IMI-1	IMI family carbapenem-hydrolyzing class A beta-lactamase	gene
+NF000386.2	gb|AAA93528.1|ARO:3001409|OXA-14	OXA-10 family class D beta-lactamase	variant
+NF012219.1	gb|AAA98296.1|ARO:3000250|ErmC	23S rRNA (adenine(2058)-N(6))-methyltransferase Erm(C)	gene
+NF033078.2	gb|AAA98298.1|ARO:3002545|AAC(6')-Ia	AAC(6')-Ia family aminoglycoside 6'-N-acetyltransferase	family
+NF000022.1	gb|AAA98349.1|ARO:3001307|VgbA	streptogramin B lyase Vgb(A)	gene
+NF000270.1	gb|AAA98406.1|ARO:3001404|OXA-9	class D beta-lactamase	family
+NF000477.1	gb|AAA99931.1|ARO:3003060|tsnR	NshR/TsnR family 23S rRNA methyltransferase	gene
+NF000329.2	gb|AAB03413.1|ARO:3003099|cphA2	CphA family subclass B2 metallo-beta-lactamase	gene
+NF000402.1	gb|AAB05622.1|ARO:3002921|vanRB	VanB-type vancomycin resistance response regulator transcription factor VanR	variant
+NF033090.1	gb|AAB05623.1|ARO:3002932|vanSB	VanB-type vancomycin resistance histidine kinase VanS	gene
+NF000473.1	gb|AAB05624.1|ARO:3002956|vanYB	VanY-B/VanY-G family D-Ala-D-Ala carboxypeptidase	family
+NF033122.1	gb|AAB05625.1|ARO:3002964|vanWB	glycopeptide resistance accessory protein VanW-B	family
+NF000492.1	gb|AAB05626.1|ARO:3002943|vanHB	D-lactate dehydrogenase VanH	variant
+NF000267.2	gb|AAB05874.1|ARO:3001410|OXA-15	OXA-2 family class D beta-lactamase	variant
+NF033100.1	gb|AAB17891.1|ARO:3003001|CfxA	CfxA family class A broad-spectrum beta-lactamase	gene
+NF000480.2	gb|AAB19430.2|ARO:3002242|CARB-3	PSE family carbenicillin-hydrolyzing class A beta-lactamase	gene
+NF012183.0	gb|AAB28795.1|ARO:3000178|tet(K)	tetracycline efflux MFS transporter Tet(K)	gene
+NF012199.0	gb|AAB36568.1|ARO:3002700|cmlv	chloramphenicol efflux MFS transporter CmlV	variant
+NF000343.1	gb|AAB41059.1|ARO:3002884|iri	rifampin monooxygenase Iri	gene
+NF000042.1	gb|AAB41701.1|ARO:3002526|AAC(2')-Id	aminoglycoside N-acetyltransferase AAC(2')-Id	variant
+NF000044.2	gb|AAB49832.1|ARO:3002636|APH(2'')-IIIa	aminoglycoside O-phosphotransferase APH(2'')-IIIa	variant
+NF000047.1	gb|AAB51440.1|ARO:3002824|ErmV	23S rRNA (adenine(2058)-N(6))-methyltransferase Erm(V)	gene
+NF000360.1	gb|AAB53445.1|ARO:3002897|SAT-4	streptothricin N-acetyltransferase Sat4	variant
+NF000052.4	gb|AAB58447.1|ARO:3002662|APH(9)-Ia	aminoglycoside O-phosphotransferase APH(9)-Ia	variant
+NF000029.2	gb|AAB66655.1|ARO:3002663|APH(9)-Ib	aminoglycoside O-phosphotransferase APH(9)-Ib	variant
+NF012178.0	gb|AAB84282.1|ARO:3000181|tet(V)	tetracycline efflux MFS transporter Tet(V)	gene
+NF000318.1	gb|AAC05822.1|ARO:3002846|arr-1	NAD(+)--rifampin ADP-ribosyltransferase	gene
+NF000076.3	gb|AAC14693.1|ARO:3002637|APH(2'')-IVa	APH(2'')-Ie/IVa family aminoglycoside O-phosphotransferase	variant
+NF033127.1	gb|AAC14728.1|ARO:3002603|aadA3	ANT(3'')-Ia family aminoglycoside nucleotidyltransferase AadA3	variant
+NF012171.0	gb|AAC23556.1|ARO:3002660|APH(6)-Id	APH(6)-I family aminoglycoside O-phosphotransferase	gene
+NF000337.1	gb|AAC32026.1|ARO:3002823|ErmH	ErmE/ErmH/ErmO/ErmR family 23S rRNA (adenine(2058)-N(6))-methyltransferase	gene
+NF000166.1	gb|AAC32027.1|ARO:3002817|carA	ABC-F type ribosomal protection protein Car(A)	gene
+NF033089.1	gb|AAC32890.1|ARO:3001868|CTX-M-5	CTX-M family class A extended-spectrum beta-lactamase	gene
+NF000010.1	gb|AAC44793.1|ARO:3002524|AAC(2')-Ib	aminoglycoside N-acetyltransferase AAC(2')-Ib	variant
+NF000385.4	gb|AAC45086.2|ARO:3001821|ACT-1	ACT family cephalosporin-hydrolyzing class C beta-lactamase	gene
+NF033135.1	gb|AAC45805.1|ARO:3002702|cmrA	Cmx/CmrA family chloramphenicol efflux MFS transporter	gene
+NF033074.0	gb|AAC46343.1|ARO:3002581|AAC(6')-Ib10	AAC(6')-Ib family aminoglycoside 6'-N-acetyltransferase	variant
+NF000096.1	gb|AAC61670.1|ARO:3001308|VgbB	streptogramin B lyase Vgb(B)	gene
+NF000097.1	gb|AAC61671.1|ARO:3002842|vatC	streptogramin A O-acetyltransferase Vat(C)	gene
+NF000064.3	gb|AAC64365.1|ARO:3000230|ANT(2'')-Ia	aminoglycoside nucleotidyltransferase ANT(2'')-Ia	variant
+NF012188.1	gb|AAC72341.1|ARO:3000182|tet(Y)	tetracycline efflux MFS transporter Tet(Y)	gene
+NF000208.1	gb|AAC78336.1|ARO:3002826|EreA2	EreA family erythromycin esterase	gene
+NF000333.1	gb|AAD01868.1|ARO:3002867|dfrF	trimethoprim-resistant dihydrofolate reductase DfrF	gene
+NF000095.1	gb|AAD04032.1|ARO:3002892|otr(B)	oxytetracycline resistance efflux MFS transporter OtrB	gene
+NF012174.0	gb|AAD09860.1|ARO:3000561|tet(30)	Tet(A)/Tet(B)/Tet(C) family tetracycline efflux MFS transporter	variant
+NF000133.1	gb|AAD12162.1|ARO:3001299|tlrB	23S rRNA (guanine(748)-N(1))-methyltransferase Erm(32)	gene
+NF033509.1	gb|AAD12233.1|ARO:3001417|OXA-22	OXA-22 family class D beta-lactamase	variant
+NF012194.0	gb|AAD12753.1|ARO:3000177|tet(J)	tetracycline efflux MFS transporter Tet(J)	gene
+NF012149.0	gb|AAD20273.1|ARO:3002256|IND-1	IND family subclass B1 metallo-beta-lactamase	gene
+NF033134.0	gb|AAD22144.1|ARO:3002698|cmlB	CmlA/FloR family chloramphenicol efflux MFS transporter	gene
+NF033132.1	gb|AAD22403.1|ARO:3002970|vanTC	membrane-bound serine racemase VanT	family
+NF000187.3	gb|AAD22636.1|ARO:3002166|MIR-1	MIR family cephalosporin-hydrolyzing class C beta-lactamase	gene
+NF012192.0	gb|AAD25538.1|ARO:3000174|tet(G)	tetracycline efflux MFS transporter Tet(G)	gene
+NF000298.2	gb|AAD37403.1|ARO:3003202|TLA-1	TLA family class A extended-spectrum beta-lactamase	gene
+NF000135.2	gb|AAD46626.1|ARO:3002596|AAC(6')-IIc	aminoglycoside N-acetyltransferase AAC(6')-IIc	variant
+NF000239.3	gb|AAD50818.2|ARO:3002019|CMY-8	CMY-1/MOX family class C beta-lactamase	gene
+NF000138.1	gb|AAD52985.1|ARO:3002570|AAC(6')-Iz	aminoglycoside N-acetyltransferase AAC(6')-Iz	variant
+NF012101.1	gb|AAF04458.1|ARO:3000850|GOB-1	GOB family subclass B3 metallo-beta-lactamase	gene
+NF012224.1	gb|AAF09244.1|ARO:3000849|SFH-1	SFH family subclass B2 metallo-beta-lactamase	gene
+NF012157.0	gb|AAF17880.1|ARO:3002605|aadA5	ANT(3'')-I family aminoglycoside nucleotidyltransferase	variant
+NF012103.0	gb|AAF27723.1|ARO:3002330|GES-1	GES family class A beta-lactamase	gene
+NF000144.1	gb|AAF36803.1|ARO:3002908|vanF	D-alanine--(R)-lactate ligase VanF	variant
+NF000145.1	gb|AAF36806.1|ARO:3002963|vanZF	glycopeptide resistance protein VanZ-F	family
+NF000451.2	gb|AAF61147.1|ARO:3004751|BES-1	BES family class A beta-lactamase	gene
+NF000380.1	gb|AAF61331.1|ARO:3002966|vanXYC	D,D-carboxypeptidase/D,D-dipeptidase VanXY	family
+NF000284.1	gb|AAF61417.1|ARO:3002244|CARB-5	RTG family carbenicillin-hydrolyzing class A beta-lactamase	gene
+NF000147.1	gb|AAF63432|ARO:3003744|vatF	streptogramin A O-acetyltransferase Vat(F)	gene
+NF000154.1	gb|AAF74725.1|ARO:3004659|Mef(En2)	macrolide efflux MFS transporter Mef(En2)	gene
+NF012220.1	gb|AAF86219.1|ARO:3000375|ErmB	23S rRNA (adenine(2058)-N(6))-methyltransferase Erm(B)	gene
+NF000020.1	gb|AAF86220.1|ARO:3002844|vatE	streptogramin A O-acetyltransferase Vat(E)	gene
+NF000403.1	gb|AAF86641.1|ARO:3002922|vanRC	VanC-type vancomycin resistance DNA-binding response regulator VanR	variant
+NF000397.2	gb|AAF86691.1|ARO:3001816|ACC-2	ACC family cephalosporin-hydrolyzing class C beta-lactamase	gene
+NF033085.1	gb|AAF86697.1|ARO:3001817|ACC-3	class C beta-lactamase	family
+NF033574.1	gb|AAF94716.1|ARO:3004289|Vibrio	VarG family subclass B1-like metallo-beta-lactamase	family
+NF000510.1	gb|AAG03380.1|ARO:3002703|cmx	chloramphenicol efflux MFS transporter Cmx	gene
+NF000094.1	gb|AAG04518.1|ARO:3000149|fosA	FosA family fosfomycin resistance glutathione transferase	variant
+NF033066.0	gb|AAG11411.2|ARO:3004680|APH(3')-VIIIa	aminoglycoside O-phosphotransferase APH(3')-VIII	variant
+NF000399.2	gb|AAG12974.1|ARO:3002159|FOX-5	FOX family cephalosporin-hydrolyzing class C beta-lactamase	gene
+NF000219.1	gb|AAG16656.1|ARO:3002705|floR	chloramphenicol/florfenicol efflux MFS transporter FloR	gene
+NF012100.0	gb|AAG27703.1|ARO:3002273|VIM-3	VIM family subclass B1 metallo-beta-lactamase	gene
+NF012142.0	gb|AAG29813.1|ARO:3002380|SME-2	SME family carbapenem-hydrolyzing class A beta-lactamase	gene
+NF000434.2	gb|AAG35607.1|ARO:3001420|OXA-25	OXA-24 family carbapenem-hydrolyzing class D beta-lactamase	variant
+NF000266.2	gb|AAG35609.2|ARO:3001422|OXA-27	OXA-23 family carbapenem-hydrolyzing class D beta-lactamase	variant
+NF012102.1	gb|AAG36927.1|ARO:3002133|DHA-2	DHA family class C beta-lactamase	gene
+NF000168.1	gb|AAK01167.1|ARO:3002819|msrC	Msr family ABC-F type ribosomal protection protein	family
+NF012147.1	gb|AAK12087.1|ARO:3002198|IMP-7	IMP family subclass B1 metallo-beta-lactamase	gene
+NF000390.2	gb|AAK14293.1|ARO:3002378|VEB-9	VEB family class A extended-spectrum beta-lactamase	gene
+NF000050.2	gb|AAK26252.2|ARO:3002583|AAC(6')-29a	aminoglycoside 6'-N-acetyltransferase AAC(6')-29	variant
+NF000013.1	gb|AAK37619.1|ARO:3000481|tet(35)	tetracycline efflux Na+/H+ antiporter family transporter Tet(35)	gene
+NF000450.2	gb|AAK38324.1|ARO:3000840|JOHN-1	subclass B1 metallo-beta-lactamase	family
+NF000388.2	gb|AAK52604.1|ARO:3001425|OXA-31	OXA-1 family class D beta-lactamase	variant
+NF033104.0	gb|AAK55330.1|ARO:3001768|OXA-118	OXA-46 family oxacillin-hydrolyzing class D beta-lactamase	variant
+NF000330.1	gb|AAK60186.1|ARO:3003014|dfrA16	trimethoprim-resistant dihydrofolate reductase DfrA	variant
+NF000015.3	gb|AAK63040.1|ARO:3002635|APH(2'')-IIa	aminoglycoside O-phosphotransferase APH(2'')-IIa	variant
+NF000016.1	gb|AAK63041.1|ARO:3004629|AAC(6')-Im	aminoglycoside N-acetyltransferase AAC(6')-Im	variant
+NF000328.2	gb|AAK63223.1|ARO:3003561|Sed1	SED family class A beta-lactamase	gene
+NF000039.1	gb|AAK64581.1|ARO:3004568|dfrA18	trimethoprim-resistant dihydrofolate reductase Dfr18	variant
+NF000233.2	gb|AAK69830.1|ARO:3002455|LEN-2	LEN family class A beta-lactamase	gene
+NF012141.0	gb|AAK70220.1|ARO:3002312|KPC-1	KPC family carbapenem-hydrolyzing class A beta-lactamase	gene
+NF000111.1	gb|AAK84316.1|ARO:3002843|vatD	streptogramin A O-acetyltransferase Vat(D)	gene
+NF012191.0	gb|AAK97755.1|ARO:3000167|tet(C)	tetracycline efflux MFS transporter Tet(C)	gene
+NF033398.1	gb|AAL02176.1|ARO:3004669|emtA	EmtA family 23S rRNA (guanine(2470)) methyltransferase	gene
+NF000235.3	gb|AAL05554.1|ARO:3003206|lsaE	lincosamide nucleotidyltransferase Lnu(B)	gene
+NF000340.1	gb|AAL12234.1|ARO:3003552|fusB	FusB family fusidic acid resistance EF-G-binding protein	gene
+NF000271.2	gb|AAL17873.1|ARO:3002403|OXY-2-8	OXY family class A extended-spectrum beta-lactamase	gene
+NF000036.1	gb|AAL27442.1|ARO:3002907|vanE	D-alanine--D-serine ligase VanE	variant
+NF033117.2	gb|AAL27445.1|ARO:3002924|vanRE	VanR-ABDEGLN family response regulator transcription factor	family
+NF000447.2	gb|AAL55262.1|ARO:3004766|CGA-1	CGA/CIA family class A beta-lactamase	family
+NF000295.1	gb|AAL59753.1|ARO:3000412|sul2	sulfonamide-resistant dihydropteroate synthase Sul2	variant
+NF000245.1	gb|AAL73129.1|ARO:3000616|mel	macrolide efflux MFS transporter Mef(A)	gene
+NF012186.0	gb|AAL75563.1|ARO:3000168|tet(D)	tetracycline efflux MFS transporter Tet(D)	gene
+NF012215.1	gb|AAM09849.1|ARO:3000005|vanD	D-alanine--(R)-lactate ligase VanD	variant
+NF000004.1	gb|AAM09850.1|ARO:3002944|vanHD	D-lactate dehydrogenase VanH-D	variant
+NF000404.1	gb|AAM09851.1|ARO:3002923|vanRD	VanD-type vancomycin resistance DNA-binding response regulator VanR	variant
+NF012193.0	gb|AAN06707.1|ARO:3000165|tet(A)	tetracycline efflux MFS transporter Tet(A)	gene
+NF012173.1	gb|AAN17791.1|ARO:3004294|BUT-1	CMY2/MIR/ACT/EC family class c beta-lactamase	variant
+NF000059.1	gb|AAN28721.1|ARO:3002871|tet37	tetracycline resistance NADPH-dependent oxidoreductase Tet(37)	variant
+NF000444.2	gb|AAN32638.1|ARO:3000842|EBR-1	EBR family subclass B1 metallo-beta-lactamase	gene
+NF000441.2	gb|AAN63647.1|ARO:3000843|MUS-1	MUS family subclass B1 metallo-beta-lactamase	gene
+NF000442.2	gb|AAN63648.1|ARO:3000844|TUS-1	TUS family subclass B1 metallo-beta-lactamase	gene
+NF000065.1	gb|AAN85115.1|ARO:3004642|dfrA3b	trimethoprim-resistant dihydrofolate reductase DfrA3b	variant
+NF012218.0	gb|AAN86837.2|ARO:3000601|Erm(38)	23S rRNA (adenine(2058)-N(6))-methyltransferase Erm(38)	gene
+NF000155.1	gb|AAO04716.1|ARO:3002865|dfrC	trimethoprim-resistant dihydrofolate reductase DfrC	gene
+NF000167.1	gb|AAO43110.1|ARO:3000300|lsaA	Lsa family ABC-F type ribosomal protection protein	family
+NF000425.2	gb|AAO43172.1|ARO:3003848|ADC-2	ADC family extended-spectrum class C beta-lactamase	gene
+NF000079.1	gb|AAO83986.1|ARO:3002623|ANT(4')-Ia	aminoglycoside O-nucleotidyltransferase ANT(4')-Ib	variant
+NF000493.1	gb|AAP08996.1|ARO:3000172|FosB	FosB/FosD family fosfomycin resistance bacillithiol transferase	gene
+NF000272.1	gb|AAP43109.1|ARO:3003922|oqxA	multidrug efflux RND transporter periplasmic adaptor subunit OqxA	gene
+NF000037.1	gb|AAP43110.2|ARO:3003923|oqxB	multidrug efflux RND transporter permease subunit OqxB	gene
+NF000502.2	gb|AAP69916.1|ARO:3001780|OXA-85	OXA-85 family oxacillin-hydrolyzing class D beta-lactamase	variant
+NF000387.2	gb|AAP70012.1|ARO:3001782|OXA-48	OXA-48 family class D beta-lactamase	variant
+NF000395.3	gb|AAQ08905.1|ARO:3001808|OXA-60	OXA-60 family carbapenem-hydrolyzing class D beta-lactamase	variant
+NF000089.1	gb|AAQ10694.1|ARO:3003047|qacB	QacA/B family quaternary ammonium compound efflux MFS transporter	gene
+NF000191.1	gb|AAQ16660.2|ARO:3002024|CMY-13	CMY-2 family class C beta-lactamase	gene
+NF000432.2	gb|AAQ76277.1|ARO:3001796|OXA-50	OXA-50 family oxacillin-hydrolyzing class D beta-lactamase	variant
+NF033667.1	gb|AAR03105.1|ARO:3001813|OXA-55	OXA-55 family carbapenem-hydrolyzing class D beta-lactamase	variant
+NF033096.1	gb|AAR20595.1|ARO:3000090|BLA1	class A beta-lactamase Bla1	gene
+NF000430.2	gb|AAR32134.1|ARO:3001792|OXA-62	OXA-62 family carbapenem-hydrolyzing class D beta-lactamase	variant
+NF033120.0	gb|AAR84672.1|ARO:3002925|vanRF	VanR-FM family response regulator transcription factor	family
+NF000423.2	gb|AAS07017.3|ARO:3002494|SRT-2	SRT/SST family class C beta-lactamase	gene
+NF000488.1	gb|AAS79458.1|ARO:3001302|chrB	23S rRNA (guanine(748)-N(1))-methyltransferase ChrB	gene
+NF000435.2	gb|AAT01092.1|ARO:3001773|OXA-61	OXA-61 family class D beta-lactamase	variant
+NF033569.1	gb|AAT46346.1|ARO:3004292|Laribacter	LHK family class C beta-lactamase	gene
+NF012145.1	gb|AAT90846.1|ARO:3003556|SLB-1	DIM/SIM/IMP family subclass B1 metallo-beta-lactamase	gene
+NF033084.2	gb|AAU10334.1|ARO:3002628|aad(6)	aminoglycoside 6-nucleotidyltransferase	gene
+NF000429.2	gb|AAU88145.1|ARO:3001764|OXA-63	OXA-63 family oxacillin-hydrolyzing class D beta-lactamase	variant
+NF000389.2	gb|AAU89132.1|ARO:3002365|PER-3	PER family class A extended-spectrum beta-lactamase	gene
+NF012176.0	gb|AAV80464.1|ARO:3000565|tet(38)	tetracycline efflux MFS transporter Tet(38)	gene
+NF000265.2	gb|AAV80715.1|ARO:3002446|OKP-B-13	OKP family class A broad-spectrum beta-lactamase	gene
+NF000498.2	gb|AAW34150.1|ARO:3004191|APH(2'')-If	APH(2'')-If/Ih family aminoglycoside O-phosphotransferase	variant
+NF000268.2	gb|AAW81336.1|ARO:3001613|OXA-64	OXA-51 family carbapenem-hydrolyzing class D beta-lactamase	variant
+NF000331.1	gb|AAX46054.1|ARO:3004549|dfrB5	trimethoprim-resistant dihydrofolate reductase DfrB	gene
+NF033152.0	gb|AAX55643.1|ARO:3003558|y56	class A beta-lactamase BlaA	gene
+NF000141.1	gb|AAY32951.1|ARO:3002837|lnuC	lincosamide nucleotidyltransferase Lnu(C)	gene
+NF000398.2	gb|AAZ04368.1|ARO:3002385|BEL-1	BEL family class A extended-spectrum beta-lactamase	gene
+NF000071.4	gb|AAZ04782.1|ARO:3002709|QnrA3	QnrA family quinolone resistance pentapeptide repeat protein	gene
+NF000067.2	gb|AAZ42322.1|ARO:3003836|qacH	QacF/QacL family quaternary ammonium compound efflux SMR transporter	variant
+NF033129.1	gb|ABA28305.2|ARO:3000462|mgtA	macrolide-inactivating glycosyltransferase	gene
+NF000362.1	gb|ABA42118.2|ARO:3000866|oleI	OleI family self-immunity macrolide glycosyltransferase	gene
+NF000090.1	gb|ABA71726.1|ARO:3004253|vanUG	glycopeptide resistance transcriptional regulator VanU	gene
+NF033123.1	gb|ABA71730.1|ARO:3002965|vanWG	glycopeptide resistance accessory protein VanW-G	family
+NF000091.3	gb|ABA71731.1|ARO:3002909|vanG	D-alanine--D-serine ligase VanG	variant
+NF000149.1	gb|ABA71732.1|ARO:3003069|vanXYG	D-Ala-D-Ala dipeptidase/D-Ala-D-Ala carboxypeptidase VanXY-G	variant
+NF033131.1	gb|ABA71733.1|ARO:3002972|vanTG	VanT-G-like membrane-bound serine racemase	family
+NF033575.1	gb|ABA81355.1|ARO:3004291|Rhodobacter	RHO family class C beta-lactamase	gene
+NF033081.0	gb|ABB43029.1|ARO:3002539|AAC(3)-IV	AAC(3)-IV family aminoglycoside N-acetyltransferase	variant
+NF000420.1	gb|ABC17628.1|ARO:3002719|QnrB5	QnrB family quinolone resistance pentapeptide repeat protein	gene
+NF032896.1	gb|ABC68330.1|ARO:3002640|APH(3'')-Ic	APH(3'') family aminoglycoside O-phosphotransferase	gene
+NF000056.3	gb|ABF47469.1|ARO:3002790|QnrS1	QnrS family quinolone resistance pentapeptide repeat protein	gene
+NF000264.2	gb|ABF50909.1|ARO:3002521|OCH-8	OCH family class C extended-spectrum beta-lactamase	gene
+NF000119.1	gb|ABG65740.1|ARO:3002879|linG	lincosamide nucleotidyltransferase Lnu(F)	gene
+NF012158.1	gb|ABI20451.1|ARO:3003741|mphE	Mph(E) family macrolide 2'-phosphotransferase	gene
+NF032895.1	gb|ABK33456.1|ARO:3002639|APH(3'')-Ib	aminoglycoside O-phosphotransferase APH(3'')-Ib	variant
+NF000383.2	gb|ABK58097.1|ARO:3004825|LAP-1	LAP family class A beta-lactamase	gene
+NF000012.1	gb|ABO40886.1|ARO:3004645|dfrI	trimethoprim-resistant dihydrofolate reductase DfrI	gene
+NF033109.1	gb|ABQ47844.1|ARO:3000215|mecR1	beta-lactam sensor/signal transducer MecR1	gene
+NF000017.1	gb|ABR14060.1|ARO:3002838|lnuD	lincosamide nucleotidyltransferase Lnu(D)	gene
+NF000326.1	gb|ABU39979.1|ARO:3000217|blaR1	BlaR1 family beta-lactam sensor/signal transducer	family
+NF033060.0	gb|ABU39980.1|ARO:3004749|BCL-1	BCL family class A beta-lactamase	gene
+NF012098.1	gb|ABV63006.2|ARO:3004759|BPU-1	BPU family class D beta-lactamase	gene
+NF012172.1	gb|ABW05394.1|ARO:3004450|TRU-1	FOX/MOX family class C beta-lactamase	gene
+NF033139.1	gb|ABX30738.1|ARO:3000621|PC1	penicillin-hydrolyzing class A beta-lactamase BlaZ	gene
+NF033818.0	gb|ABX38721.1|ARO:3001609|OXA-114a	OXA-114 family class D beta-lactamase	variant
+NF000032.1	gb|ABX54687.1|ARO:3002910|vanL	D-alanine--D-serine ligase VanL	variant
+NF000033.1	gb|ABX54689.1|ARO:3002973|vanTmL	serine racemase VanT-L membrane subunit	family
+NF033133.1	gb|ABX54690.1|ARO:3002974|vanTrL	serine racemase VanT-L catalytic subunit	family
+NF000007.1	gb|ABY64751.1|ARO:3002667|rmtD	RmtD family 16S rRNA (guanine(1405)-N(7))-methyltransferase	variant
+NF000421.1	gb|ACC54440.2|ARO:3002799|QnrVC1	QnrVC family quinolone resistance pentapeptide repeat protein	gene
+NF000026.1	gb|ACC85616.1|ARO:3002804|FosA2	FosA/FosA2 family fosfomycin resistance glutathione transferase	variant
+NF012177.1	gb|ACD35503.1|ARO:3000572|tet(42)	tetracycline efflux MFS transporter Tet(42)	gene
+NF012169.0	gb|ACF70723.1|ARO:3004103|QepA2	fluoroquinolone efflux MFS transporter QepA	gene
+NF000139.2	gb|ACG70184.1|ARO:3002788|QnrD1	QnrD family quinolone resistance pentapeptide repeat protein	gene
+NF033105.1	gb|ACH58985.1|ARO:3002485|LRA-2	subclass B3 metallo-beta-lactamase	family
+NF000296.1	gb|ACJ63260.1|ARO:3000413|sul3	sulfonamide-resistant dihydropteroate synthase Sul3	variant
+NF000051.1	gb|ACJ63262.1|ARO:3003107|mefB	macrolide efflux MFS transporter Mef(B)	gene
+NF012152.0	gb|ACK75961.1|ARO:3002787|QnrC	QnrC family quinolone resistance pentapeptide repeat protein	gene
+NF000470.1	gb|ACL82961.1|ARO:3002911|vanM	D-alanine--(R)-lactate ligase VanM	variant
+NF000422.6	gb|ACQ82806.1|ARO:3002498|PDC-2	PDC family class C beta-lactamase	gene
+NF000061.1	gb|ACS83559.1|ARO:3004601|LnuP	lincosamide nucleotidyltransferase Lnu(P)	gene
+NF012180.1	gb|ACS83748.1|ARO:3000573|tet(43)	tetracycline efflux MFS transporter Tet(43)	gene
+NF000426.2	gb|ACT66697.1|ARO:3000846|SIM-1	SIM family subclass B1 metallo-beta-lactamase	gene
+NF033098.1	gb|ACT97415.1|ARO:3002999|CblA-1	CblA family class A beta-lactamase	gene
+NA	gb|AEQ93536.1|ARO:3004468|CrpP	NA	variant
+NF000424.3	gb|ACX65640.1|ARO:3003907|cipA	Cfr family 23S rRNA (adenine(2503)-C(8))-methyltransferase	gene
+NF000464.2	gb|ACX70402.1|ARO:3001654|OXA-143	OXA-143 family carbapenem-hydrolyzing class D beta-lactamase	variant
+NF000504.1	gb|ACX92987.1|ARO:3002845|vatH	streptogramin A O-acetyltransferase Vat(H)	gene
+NF000181.1	gb|ADA62098.1|ARO:3003905|ANT(4')-Ib	aminoglycoside O-nucleotidyltransferase ANT(4')-Ia	variant
+NF000069.1	gb|ADA63498.1|ARO:3004678|rmtE	RmtE family 16S rRNA (guanine(1405)-N(7))-methyltransferase	variant
+NF000513.2	gb|ADA78299.1|ARO:3004801|FTU-1	FTU family class A beta-lactamase	gene
+NF000449.2	gb|ADB56658.1|ARO:3004753|BIC-1	BIC family carbapenem-hydrolyzing class A beta-lactamase	gene
+NF000466.2	gb|ADC55560.1|ARO:3000858|armA	Rmt family 16S rRNA (guanine(1405)-N(7))-methyltransferase	family
+NF000053.2	gb|ADG84870.1|ARO:3002858|dfrA12	trimethoprim-resistant dihydrofolate reductase DfrA12	variant
+NF000072.1	gb|ADI87853.1|ARO:3004666|pexA	phenicol efflux MFS transporter PexA	gene
+NF000436.2	gb|ADM47435.1|ARO:3001695|OXA-134	OXA-134 family carbapenem-hydrolyzing class D beta-lactamase	variant
+NF032898.1	gb|ADQ43421.1|ARO:3002646|APH(3')-IIc	APH(3')-II family aminoglycoside O-phosphotransferase	variant
+NF000085.1	gb|ADX95999.1|ARO:3002873|FosB3	FosB1/FosB3 family fosfomycin resistance bacillithiol transferase	variant
+NF000259.2	gb|AEA41876.1|ARO:3000590|NDM-2	NDM family subclass B1 metallo-beta-lactamase	gene
+NF000075.1	gb|AEG78825.1|ARO:3002872|FosA3	FosA3/FosA4 family fosfomycin resistance glutathione transferase	variant
+NF000294.1	gb|AEJ33969.1|ARO:3000410|sul1	sulfonamide-resistant dihydropteroate synthase Sul1	variant
+NF012184.0	gb|AEM62948.1|ARO:3003196|tet(45)	tetracycline efflux MFS transporter Tet(45)	gene
+NF000355.3	gb|AEO25219.1|ARO:3004651|lin	ABC-F type ribosomal protection protein	variant
+NF000093.1	gb|AEP40500.1|ARO:3002912|vanN	D-alanine--D-serine ligase VanN	variant
+NF000474.1	gb|AET10444.1|ARO:3004032|tetA(46)	tetracycline efflux ABC transporter Tet(46) subunit A	gene
+NF000475.1	gb|AET10445.1|ARO:3004033|tetB(46)	tetracycline efflux ABC transporter Tet(46) subunit B	gene
+NF000417.2	gb|AEV91550.1|ARO:3001710|OXA-211	OXA-211 family carbapenem-hydrolyzing class D beta-lactamase	variant
+NF000269.2	gb|AEV91552.1|ARO:3001712|OXA-213	OXA-213 family carbapenem-hydrolyzing class D beta-lactamase	variant
+NF000418.2	gb|AEV91553.1|ARO:3001713|OXA-214	OXA-214 family carbapenem-hydrolyzing class D beta-lactamase	variant
+NF000258.1	gb|AEY83581|ARO:3000510|mupB	mupirocin-resistant isoleucine--tRNA ligase MupB	gene
+NF000419.2	gb|AFI56422.1|ARO:3004777|CMH-1	CMH family class C beta-lactamase	gene
+NF000113.1	gb|AFJ11385.1|ARO:3002666|rmtF	RmtF family 16S rRNA (guanine(1405)-N(7))-methyltransferase	variant
+NF000501.2	gb|AFM55000.1|ARO:3001692|OXA-229	OXA-229 family carbapenem-hydrolyzing class D beta-lactamase	variant
+NF000461.2	gb|AFO09968.1|ARO:3001476|OXA-184	OXA-184 family class D beta-lactamase	variant
+NF000354.1	gb|AFO53532.1|ARO:3002883|rgt1438	rifamycin-inactivating glycosyltransferase Rgt	gene
+NF033815.0	gb|AFR53898.2|ARO:3001551|OXA-364	OXA-364 family class D beta-lactamase	variant
+NF000437.2	gb|AFV91534.1|ARO:3004786|FIM-1	FIM family subclass B1 metallo-beta-lactamase	gene
+NF000409.1	gb|AGC51118.1|ARO:3000617|mecA	PBP2a family beta-lactam-resistant peptidoglycan transpeptidase MecA	gene
+NF000445.2	gb|AGC92784.1|ARO:3000848|DIM-1	DIM family subclass B1 metallo-beta-lactamase	gene
+NF000114.1	gb|AGE00988.1|ARO:3002668|rmtG	RmtG family 16S rRNA (guanine(1405)-N(7))-methyltransferase	variant
+NF000116.1	gb|AGH19769.1|ARO:3003198|rmtH	RmtH family 16S rRNA (guanine(1405)-N(7))-methyltransferase	variant
+NF012202.0	gb|AGH88989.1|ARO:3001205|determinant	bleomycin binding protein Ble-MBL	family
+NF033062.0	gb|AGI04227.1|ARO:3003687|APH(3')-VI	APH(3')-VI family aminoglycoside O-phosphotransferase	variant
+NF000169.1	gb|AGN74946|ARO:3003749|salA	Sal family ABC-F type ribosomal protection protein	family
+NF000188.2	gb|AGQ93789.1|ARO:3003176|CARB-21	CARB family carbenicillin-hydrolyzing class A beta-lactamase	gene
+NF000478.2	gb|AGT57825|ARO:3003762|lnuE	lincosamide nucleotidyltransferase Lnu(E)	gene
+NF000132.2	gb|AGV10818.1|ARO:3002669|APH(2'')-Ig	aminoglycoside O-phosphotransferase APH(2'')-Ig	variant
+NF033064.0	gb|AGV10830.1|ARO:3002647|APH(3')-IIIa	aminoglycoside O-phosphotransferase APH(3')-IIIa	variant
+NF000374.1	gb|AHA41500.1|ARO:3002913|vanO	D-alanine--(R)-lactate ligase VanO	variant
+NF033094.0	gb|AHA41504.1|ARO:3002941|vanSO	VanO-type vancomycin resistance histidine kinase VanS	gene
+NF033118.1	gb|AHA41505.1|ARO:3002930|vanRO	VanO-type vancomycin resistance response regulator transcription factor VanR	variant
+NF033467.0	gb|AHF82023.1|ARO:3004647|AQU-2	AQU family class C beta-lactamase	gene
+NF000018.2	gb|AHG97174.1|ARO:3003011|dfrA10	trimethoprim-resistant dihydrofolate reductase DfrA10	variant
+NF012216.1	gb|AHH83938.1|ARO:3000013|vanB	D-alanine--(R)-lactate ligase VanB	variant
+NF000126.2	gb|AHV80711.1|ARO:3002863|dfrA8	trimethoprim-resistant dihydrofolate reductase DfrA8	variant
+NF000283.1	gb|AIA08936.1|ARO:3000444|rphA	rifamycin-inactivating phosphotransferase Rph	gene
+NF000150.1	gb|AIA09786.1|ARO:3000861|rmtC	RmtC family 16S rRNA (guanine(1405)-N(7))-methyltransferase	variant
+NF000415.2	gb|AIG22448.1|ARO:3001558|OXA-372	OXA-372 family carbapenem-hydrolyzing class D beta-lactamase	variant
+NF033107.1	gb|AIL46641.1|ARO:3000579|Chryseobacterium	BlaB family subclass B1 metallo-beta-lactamase	gene
+NF000396.2	gb|AIY26289.1|ARO:3003194|GIM-2	GIM family subclass B1 metallo-beta-lactamase	gene
+NF000454.2	gb|AJP77054|ARO:3003716|CPS-1	CPS family subclass B3 metallo-beta-lactamase	gene
+NF000456.2	gb|AJP77057|ARO:3003718|MSI-1	MSI-1 family subclass B3 metallo-beta-lactamase	family
+NF000457.2	gb|AJP77059|ARO:3003670|PEDO-1	PEDO-1 family subclass B3 metallo-beta-lactamase	family
+NF000458.2	gb|AJP77071|ARO:3003714|PEDO-2	PEDO-2 family subclass B3 metallo-beta-lactamase	family
+NF000453.2	gb|AJP77076|ARO:3003715|PEDO-3	PEDO-3 family subclass B1 metallo-beta-lactamase	family
+NF000459.2	gb|AJP77080|ARO:3003720|SPG-1	SPG-1 family subclass B3 metallo-beta-lactamase	family
+NF000455.2	gb|AJP77085|ARO:3003717|ESP-1	ESP-1 family subclass B3 metallo-beta-lactamase	gene
+NF000514.1	gb|AKA86814|ARO:3003746|optrA	ABC-F type ribosomal protection protein OptrA	family
+NF000413.2	gb|AKD43328.1|ARO:3004757|BKC-1	BKC family carbapenem-hydrolyzing class A beta-lactamase	gene
+NF000465.1	gb|AKF16168|ARO:3003689|MCR-1	MCR-1 family phosphoethanolamine--lipid A transferase	variant
+NF000516.1	gb|AKO71461.1|ARO:3004608|EreD	EreD family erythromycin esterase	gene
+NF033476.1	gb|AKQ05891.1|ARO:3004613|758325878	tetracycline destructase	family
+NF000428.4	gb|ALE30770.1|ARO:3004797|FRI-1	FRI family carbapenem-hydrolyzing class A beta-lactamase	gene
+NF000517.2	gb|ALF06101.1|ARO:3004764|CBP-1	CBP family penicillin-hydrolyzing class A beta-lactamase	gene
+NF000518.2	gb|ALU64000|ARO:3003713|VCC-1	VCC family carbapenem-hydrolyzing class A beta-lactamase	gene
+NF012148.0	gb|AMY61250.1|ARO:3004092|HMB-1	KHM/HMB family subclass B1 metallo-beta-lactamase	gene
+NF012140.0	gb|AND91341.1|ARO:3000856|BJP-1	BJP family subclass B3 metallo-beta-lactamase	gene
+NF033468.1	gb|APB03220.1|ARO:3003987|VatI	streptogramin A O-acetyltransferase Vat(I)	gene
+NF033472.1	gb|APB03221.1|ARO:3003988|AAC(2')-IIb	kasugamycin N-acetyltransferase AAC(2')-IIb	variant
+NF033375.2	gb|APC93960.1|ARO:3004636|qnrE1	QnrE family quinolone resistance pentapeptide repeat protein	gene
+NF033182.0	gb|APU52409.1|ARO:3004085|lnuG	lincosamide nucleotidyltransferase Lnu(G)	gene
+NF033386.1	gb|APY23733.1|ARO:3004734|ARL-1	ARL family class A beta-lactamase	gene
+NF033378.1	gb|AQX82857.1|ARO:3004185|mecD	PBP2a family beta-lactam-resistant peptidoglycan transpeptidase MecD	gene
+NF000460.1	gb|ASE57902.1|ARO:3003731|fusD	FusD family fusidic acid resistance EF-G-binding protein	gene
+NF033408.5	gb|ASF81896.1|ARO:3004139|MCR-3	MCR-3 family phosphoethanolamine--lipid A transferase	variant
+NF033463.1	gb|ASK40551.1|ARO:3004332|MCR-5	MCR-5 family phosphoethanolamine--lipid A transferase	variant
+NF012159.0	gb|ASK49941.1|ARO:3004502|MCR-2.2	MCR-2 family phosphoethanolamine--lipid A transferase	variant
+NF033670.1	gb|ASK49942.1|ARO:3004501|MCR-6.1	MCR-6 family phosphoethanolamine--lipid A transferase	variant
+NF033462.1	gb|ASR73329.1|ARO:3004325|MCR-4	MCR-4 family phosphoethanolamine--lipid A transferase	variant
+NF033502.0	gb|AUI09862.1|ARO:3004361|sul4	sulfonamide-resistant dihydropteroate synthase Sul4	variant
+NF033671.1	gb|AUR80098.1|ARO:3004517|MCR-7.1	MCR-7 family phosphoethanolamine--lipid A transferase	variant
+NF000503.1	gb|AVL76727.1|ARO:3004663|FusF	fusidic acid resistance EF-G-binding protein FusF	gene
+NF033895.1	gb|AVX51087.1|ARO:3004559|CAM-1	CAM family subclass B1 metallo-beta-lactamase	variant
+NF033669.1	gb|AVX52225.1|ARO:3004516|MCR-8	MCR-8 family phosphoethanolamine--lipid A transferase	variant
+NF000476.1	gb|BAA03674.1|ARO:3001300|myrA	23S rRNA (guanine(748)-N(1))-methyltransferase MyrA	gene
+NF000254.1	gb|BAA03776.1|ARO:3000316|mphA	Mph(A) family macrolide 2'-phosphotransferase	gene
+NF000009.1	gb|BAA07390.1|ARO:3002893|tcr3	tetracycline efflux MFS transporter Tcr3	gene
+NF000338.1	gb|BAA32493.1|ARO:3000423|FomA	fosfomycin resistance kinase FomA	gene
+NF000361.1	gb|BAA32494.1|ARO:3000449|FomB	FomB family phosphonate monophosphate kinase	gene
+NF000240.1	gb|BAA34540.1|ARO:3000319|mphC	Mph(C) family macrolide 2'-phosphotransferase	gene
+NF000243.1	gb|BAB41258.1|ARO:3000124|mecI	mecA-type methicillin resistance repressor MecI	gene
+NF012190.1	gb|BAC67143.1|ARO:3000166|tet(B)	tetracycline efflux MFS transporter Tet(B)	gene
+NF000115.2	gb|BAD12078.1|ARO:3002572|AAC(6')-Iad	aminoglycoside N-acetyltransferase AAC(6')-Iad	variant
+NF000358.1	gb|BAD95494.1|ARO:3002895|SAT-1	streptothricin N-acetyltransferase Sat2	variant
+NF000143.1	gb|BAE15963.1|ARO:3002868|dfrG	trimethoprim-resistant dihydrofolate reductase DfrG	gene
+NF033128.2	gb|BAE83690.1|ARO:3003724|vanWI	glycopeptide resistance accessory protein VanW	family
+NF000030.1	gb|BAF80809.1|ARO:3002665|npmA	16S rRNA (adenine(1408)-N(1))-methyltransferase NpmA	gene
+NF000406.1	gb|BAI83385.1|ARO:3003440|mecB	PBP2a family beta-lactam-resistant peptidoglycan transpeptidase MecB	gene
+NF000074.1	gb|BAJ10053.1|ARO:3002874|FosC2	FosC2 family fosfomycin resistance glutathione transferase	variant
+NF000287.1	gb|BAL14456.1|ARO:3000854|SMB-1	SMB-1 family subclass B3 metallo-beta-lactamase	family
+NF000446.2	gb|BAL40892.1|ARO:3004768|CIA-1	CIA family class A extended-spectrum beta-lactamase	gene
+NF000241.1	gb|BAL43359.1|ARO:3003742|mphG	Mph(E)/Mph(G) family macrolide 2'-phosphotransferase	gene
+NF000246.1	gb|BAL43360.1|ARO:3003745|mefC	macrolide efflux MFS transporter Mef(C)	gene
+NF000100.2	gb|BAM16262.1|ARO:3004628|AAC(2')-IIa	kasugamycin N-acetyltransferase AAC(2')-IIa	variant
+NF000443.2	gb|BAM73613.1|ARO:3004106|TMB-2	TMB family subclass B1 metallo-beta-lactamase	gene
+NF033130.1	gb|BAN78519.1|ARO:3004638|AAC(6')-Iag	aminoglycoside 6'-N-acetyltransferase AAC(6')-Iag	variant
+NF000497.1	gb|BAO21229.1|ARO:3003199|AAC(6')-Iak	aminoglycoside N-acetyltransferase AAC(6')-Iak	variant
+NF000495.1	gb|BAO79518.1|ARO:3003207|FosK	fosfomycin resistance glutathione transferase FosK	gene
+NF000431.1	gb|BAQ22025.1|ARO:3003200|AAC(6')-Ian	aminoglycoside N-acetyltransferase AAC(6')-Ian	variant
+NF000107.2	gb|CAA24743.1|ARO:3002655|APH(4)-Ia	aminoglycoside O-phosphotransferase APH(4)-Ia	variant
+NF000011.2	gb|CAA25854.1|ARO:3002659|APH(6)-Ic	aminoglycoside O-phosphotransferase APH(6)-Ic	variant
+NF033126.1	gb|CAA26199.1|ARO:3004089|ANT(3'')-IIa	ANT(3'')-Ia family aminoglycoside nucleotidyltransferase AadA1	variant
+NF000088.1	gb|CAA26235.1|ARO:3003061|viomycin	viomycin phosphotransferase	gene
+NF012222.1	gb|CAA26964.1|ARO:3000347|ErmA	23S rRNA (adenine(2058)-N(6))-methyltransferase Erm(A)	gene
+NF033065.0	gb|CAA27061.1|ARO:3002648|APH(3')-IVa	aminoglycoside O-phosphotransferase APH(3')-IVa	variant
+NF000137.2	gb|CAA27276.1|ARO:3002661|APH(7'')-Ia	aminoglycoside O-phosphotransferase APH(7'')-Ia	variant
+NF000209.1	gb|CAA27626.1|ARO:3000363|EreB	EreB family erythromycin esterase	gene
+NF033466.0	gb|CAA33795.1|ARO:3003563|RCP-1	RCP family class A beta-lactamase	gene
+NF000256.1	gb|CAA36304.1|ARO:3000251|msrA	ABC-F type ribosomal protection protein Msr(A)	gene
+NF033568.1	gb|CAA37052.1|ARO:3002995|ROB-1	ROB family class A beta-lactamase	gene
+NF000120.3	gb|CAA37477.1|ARO:3002891|otr(A)	tetracycline resistance ribosomal protection protein Otr(A)	gene
+NF032894.1	gb|CAA37605.1|ARO:3002638|APH(3'')-Ia	aminoglycoside O-phosphotransferase APH(3'')-Ia	variant
+NF000110.2	gb|CAA39038.1|ARO:3002553|AAC(6')-If	aminoglycoside N-acetyltransferase AAC(6')-If	variant
+NF000109.2	gb|CAA40897.1|ARO:3004548|dfrA9	trimethoprim-resistant dihydrofolate reductase DfrA9	variant
+NF000257.1	gb|CAA53189|ARO:3000521|mupA	mupirocin-resistant isoleucine--tRNA ligase MupA	gene
+NF012195.0	gb|CAA75663.1|ARO:3000175|tet(H)	tetracycline efflux MFS transporter Tet(H)	gene
+NF012154.0	gb|CAA79727.1|ARO:3000191|tetQ	tetracycline resistance ribosomal protection protein Tet(Q)	gene
+NF000122.1	gb|CAA83855.1|ARO:3000380|FosC	fosfomycin resistance kinase FosC	variant
+NF000359.1	gb|CAA88265.1|ARO:3002898|SAT-3	streptothricin N-acetyltransferase Sat3	variant
+NF000157.1	gb|CAA90432.1|ARO:3003026|fusH	fusidic acid esterase FusH	gene
+NF000055.3	gb|CAA90683.1|ARO:3003012|dfrA13	DfrA13/DfrA21 family trimethoprim-resistant dihydrofolate reductase	variant
+NF000486.1	gb|CAA91010.1|ARO:3002559|AAC(6')-Ip	aminoglycoside 6'-N-acetyltransferase AAC(6')-Ip	variant
+NF000312.1	gb|CAB14620.1|ARO:3002627|aadK	aminoglycoside 6-adenylyltransferase AadK	variant
+NF000373.1	gb|CAB45459.1|ARO:3002914|vanJ	teicoplanin resistance protein VanJ	gene
+NF000448.2	gb|CAB51471.1|ARO:3004359|ACI-1	ACI family class A beta-lactamase	gene
+NF000511.2	gb|CAB55427.1|ARO:3004775|CME-1	CME family class A extended-spectrum beta-lactamase	gene
+NF000323.2	gb|CAB61635.1|ARO:3004788|FONA-1	FONA family class A beta-lactamase	gene
+NF033106.1	gb|CAB75346.1|ARO:3000582|L1	L1 family subclass B3 metallo-beta-lactamase	gene
+NF000216.2	gb|CAB96921.1|ARO:3000606|FEZ-1	FEZ family subclass B3 metallo-beta-lactamase	gene
+NF000054.1	gb|CAC32082.1|ARO:3002527|AAC(2')-Ie	aminoglycoside N-acetyltransferase AAC(2')-Ie	variant
+NF000440.2	gb|CAC33832.1|ARO:3000851|THIN-B	THIN family subclass B3 metallo-beta-lactamase	gene
+NF000041.1	gb|CAC81324.1|ARO:3003015|dfrA19	trimethoprim-resistant dihydrofolate reductase DfrA19	variant
+NF000427.2	gb|CAC87665.1|ARO:3000855|CAU-1	CAU/MBL1b family subclass B3 metallo-beta-lactamase	gene
+NF012150.3	gb|CAD37801.1|ARO:3003793|SPM-1	SPM family subclass B1 metallo-beta-lactamase	gene
+NF000218.1	gb|CAD70268.1|ARO:3002704|fexA	chloramphenicol/florfenicol efflux MFS transporter FexA	gene
+NF033063.0	gb|CAD91341.1|ARO:3004675|aphA15	aminoglycoside O-phosphotransferase APH(3')-XV	variant
+NF033077.0	gb|CAE48335.2|ARO:3002599|AAC(6')-30/AAC(6')-Ib'	aminoglycoside 6'-N-acetyltransferase AAC(6')-30	variant
+NF000127.2	gb|CAE53424.1|ARO:3003016|dfrA20	trimethoprim-resistant dihydrofolate reductase DfrA20	variant
+NF012099.1	gb|CAG27800.1|ARO:3003203|TLA-2	class A beta-lactamase, subclass A2	family
+NF000134.2	gb|CAG34233.2|ARO:3003019|dfrA23	trimethoprim-resistant dihydrofolate reductase DfrA23	variant
+NF000341.1	gb|CAG41812.1|ARO:3003733|fusC	FusC family fusidic acid resistance EF-G-binding protein	gene
+NF000146.2	gb|CAI99385.1|ARO:3002856|dfrA24	trimethoprim-resistant dihydrofolate reductase DfrA24	variant
+NF000255.1	gb|CAJ98570.1|ARO:3003071|mphF	Mph(F) family macrolide 2'-phosphotransferase	gene
+NF000118.3	gb|CAK55557.1|ARO:3002585|AAC(6')-31	aminoglycoside N-acetyltransferase AAC(6')-31	variant
+NF012203.0	gb|CAL30186.1|ARO:3002699|cmlB1	chloramphenicol efflux MFS transporter CmlB1	variant
+NF000006.2	gb|CAL48457.1|ARO:3002857|dfrA26	trimethoprim-resistant dihydrofolate reductase DfrA26	variant
+NF000049.1	gb|CAM12479.1|ARO:3000567|tet(40)	tetracycline efflux MFS transporter Tet(40)	gene
+NF033209.1	gb|CAP07796.1|ARO:3000860|rmtB	RmtB family 16S rRNA (guanine(1405)-N(7))-methyltransferase	variant
+NF012155.1	gb|CAQ49384.1|ARO:3000186|tetM	tetracycline resistance ribosomal protection protein Tet(M)	gene
+NF000439.2	gb|CAQ53840.1|ARO:3000853|AIM-1	AIM family subclass B3 metallo-beta-lactamase	gene
+NF000084.1	gb|CBL58181.1|ARO:3003918|apmA	aminocyclitol acetyltransferase ApmA	family
+NF000332.1	gb|CBL80435.1|ARO:3002869|dfrK	DfrD/DfrG/DfrK family trimethoprim-resistant dihydrofolate reductase	family
+NF000077.1	gb|CBY77552.1|ARO:3003106|Erm(42)	23S rRNA (adenine(2058)-N(6))-methyltransferase Erm(42)	gene
+NF000407.1	gb|CCC86795.1|ARO:3001209|mecC	PBP2a family beta-lactam-resistant peptidoglycan transpeptidase MecC	gene
+NF000412.1	gb|CCF55073.1|ARO:3003205|Erm(43)	23S rRNA (adenine(2058)-N(6))-methyltransferase Erm(43)	gene
+NF000034.1	gb|CCP42991.1|ARO:3002525|AAC(2')-Ic	aminoglycoside N-acetyltransferase AAC(2')-Ic	variant
+NF000468.1	gb|CCP44758.1|ARO:3000392|Erm(37)	23S rRNA (adenine(2058)-N(6))-methyltransferase Erm(37)	gene
+NF000411.1	gb|CEJ95855.1|ARO:3004595|erm45	23S rRNA (adenine(2058)-N(6))-methyltransferase Erm(45)	gene
+NF033220.1	gb|CTQ57092.1|ARO:3004682|aadA27	ANT(3'')-II family aminoglycoside nucleotidyltransferase	variant
+NF000222.1	gb|CWV56762.1|ARO:3000198|FosX	FosX/FosE/FosI family fosfomycin resistance thiol transferase	gene
+NF033648.1	gb|ENV18923.1|ARO:3001731|OXA-275	OXA-274 family class D beta-lactamase	variant
+NF033068.1	gb|ENV34035|ARO:3004087|APH(3')-IX	APH(3') family aminoglycoside O-phosphotransferase	gene
+NF033653.1	gb|ENV38192.1|ARO:3001722|OXA-266	OXA-266 family class D beta-lactamase	gene
+NF000520.2	gb|ENW94121.1|ARO:3001746|OXA-291	OXA-286 family class D beta-lactamase	variant
+NF033473.1	gb|EOD99669.1|ARO:3002875|dfrE	trimethoprim-resistant dihydrofolate reductase DfrE	gene
+NF032892.0	gb|KKE03230.1|ARO:3004113|FosA7	FosA7 family fosfomycin resistance glutathione transferase	variant
+NF000372.1	gb|KTE89608.1|ARO:3003723|vanI	D-alanine--(R)-lactate ligase VanI	variant
+NF000185.2	gb|NP_418574.1|ARO:3004290|Escherichia	BlaEC family class C beta-lactamase	gene
+NF000506.1	gb|NP_862226.1|ARO:3004639|Corynebacterium	tetracycline efflux ABC transporter TetAB subunit A	gene
+NF033836.1	gb|WP_001572373.1|ARO:3004684|MCR-9	MCR-9 family phosphoethanolamine--lipid A transferase	variant
+NF000363.1	gb|WP_063964000.1|ARO:3004102|kamB	16S rRNA (adenine(1408)-N(1))-methyltransferase KamB	gene
