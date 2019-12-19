@@ -112,3 +112,7 @@ V. Using results of precision and recall analysis, gathering thresholds and if n
 # Analysis
 
 ### 1) Comparative Analysis
+
+![alt text][compAnalysis]
+
+[compAnalysis]: https://github.com/dantaslab/resfams_update/blob/master/Analysis/plots/191218-comparative_analysis.png "Comparative Analysis"
