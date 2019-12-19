@@ -3,7 +3,7 @@
 
 ---
 
-# Workflow
+## Workflow
 
 ### 1) Construct Phylogenetic Trees
   Start with a set of sequences believed to be related in fasta format (for example Class A beta-lactamases)<br> * We used existing Resfams sequences and supplemented with CARD data, separated into broad family groups. HMM profiles were made at the family, gene, and variant levels as to make a complete ontology.
@@ -107,9 +107,8 @@ V. Using results of precision and recall analysis, gathering thresholds and if n
 ### 4) Compile HMMs and Rename HMM sequences
 
 
----
 
-# Analysis
+## Analysis
 
 ### 1) Total Hits Comparative Analysis
 
