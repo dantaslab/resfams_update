@@ -100,11 +100,29 @@ IV. Custom Script: precision_recall.py performs precision recall by comparing hm
 
     python3 precision_recall.py -f1 testSet_hmmscan_parsed.txt -f2 testSet_families.txt -m testSet_metadata.txt -o path/to/output/directory/
 
-V. Using results of precision and recall analysis, gathering thresholds and if needed hmm sequence sets were adjusted. If any changes made, analysis was repeated. Continued until a precision and recall greater than 90% was achieved for all profiles.
+V. Using results of precision and recall analysis, gathering thresholds, and if needed hmm sequence sets, were adjusted. If any changes were made, analysis was repeated. Continued until a precision and recall greater than 90% was achieved for all profiles.
 
 
 
 ### 4) Compile HMMs and Rename HMM sequences
+Final profile HMMs for families, genes, and variants were compiled into a final HMM file. Sequences used to construct each profile had their fasta headers reformatted.
+
+I. HMMs were compiled using _cat_ function
+
+    cat family.hmm >> 191218-MB_Resfams.hmm
+
+II. Custom Script: reformat_headers.py was used to reformat fasta headers using compiled metadata sequence data from HMM construction
+
+    python3 reformat_headers.py -f1 conmpiled_hmms_seqs_metadata.txt -f2 GA_metadata.txt -f3 family_sequences.faa -d 191218 -o path/to/output/directory/
+
+  ##### Header Format:
+  A format for fasta headers was developed to give the most information possible while also making easy to parse and avoid unwanted errors and interactions with existing informatics programs.
+  These headers were constructed from existing information, primarily from the old headers, and supplemented by Resfams information we collected in the Hmm profile building process.
+
+    Resfams IDs~~~Database Name=ID~~~Sequence Name
+
+    MB-RF002|MB-RF003|MB-RF011~~~gb=AAR21614.1|card=ARO:3002529~~~AAC(3)-Id
+
 
 
 
