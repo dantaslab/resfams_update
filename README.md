@@ -73,14 +73,6 @@
 
 
 ### 3) Precision-Recall Analysis to Fine-Tune Profiles
-  A test set of sequences with known ontologies was used to test HMM precision and recall. Start with fasta file of sequences to test as well as a metadata file with associated family, gene, and variant classifications.
-
-  | Sequence Header | Family1 | Family2 | Family3 | Family4 |
-  |:-------------:|:-----:|:-----:|:-----:|:-----:|
-  | AF395881.gene.p01 | KPC | ClassA |
-  |  AM087453.1.gene1.p01 |  SHV-LEN | SHV-LEN-OKP | ClassA |
-  | gb\|CAJ19616.1\|ARO:3002441\|OKP-B-8 | OKP-B | OKP | SHV-LEN-OKP| ClassA
-
   ##### Precision-Recall Calculations
   _Precision_ (Positive Predictive Value) is defined as the number of relevant instances among retrieved instances.
   _Recall_ (Sensitivity) is defined as the fraction of relevant instances that were actually retrieved.
@@ -98,6 +90,14 @@
 
   * Here, _Positive Hits_ are the sequences that we got hmmscan hits for that were are confirmed to be from the hit family. _Total Hits_ are the total number of hmmscan hits for a given family. _Relevent Sequences_ are the number of sequences in the dataset that are known to belong to a family.
 
+  #### Workflow
+  A test set of sequences with known ontologies was used to test HMM precision and recall. Start with fasta file of sequences to test as well as a metadata file with associated family, gene, and variant classifications.
+
+  | Sequence Header | Family1 | Family2 | Family3 | Family4 |
+  |:-------------:|:-----:|:-----:|:-----:|:-----:|
+  | AF395881.gene.p01 | KPC | ClassA |
+  |  AM087453.1.gene1.p01 |  SHV-LEN | SHV-LEN-OKP | ClassA |
+  | gb\|CAJ19616.1\|ARO:3002441\|OKP-B-8 | OKP-B | OKP | SHV-LEN-OKP| ClassA
 
 
 I. cd-hit with a cutoff value of 1.0 was used to remove redundant sequences
