@@ -85,7 +85,7 @@
   _Precision_ (Positive Predictive Value) is defined as the number of relevant instances among retrieved instances. This can be written as _True Positives/(True Positives + False Positives)_
   _Recall_ (Sensitivity) is defined as the fraction of relevant instances that were actually retrieved. This can be written as _True Positives/(True Positives + False Negatives)_
 
-  [alt text](https://github.com/dantaslab/resfams_update/blob/master/src/plots/precision_recall_eq.png "Precision-Recall Equations")
+  ![alt text](https://github.com/dantaslab/resfams_update/blob/master/src/plots/precision_recall_eq.png "Precision-Recall Equations")
 
 
 
