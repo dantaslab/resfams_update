@@ -93,7 +93,7 @@
   In the context of the analysis that we performed, we are interested in the hits we retrieved when running sequences against our Hmms and if they were accurate. As such we calculated precision and recall in this analysis with the following equations:
 
   <p align="center">
-    <img src="https://github.com/dantaslab/resfams_update/blob/master/src/resfam_precision_recall_eq.png" alt="Resfams Precision-Recall Equations" width="500"/>
+    <img src="https://github.com/dantaslab/resfams_update/blob/master/src/resfam_precision_recall_eq.png" alt="Resfams Precision-Recall Equations" width="400"/>
   </p>
 
   * Here, _Positive Hits_ are the sequences that we got hmmscan hits for that were are confirmed to be from the hit family. _Total Hits_ are the total number of hmmscan hits for a given family. _Relevent Sequences_ are the number of sequences in the dataset that are known to belong to a family.
