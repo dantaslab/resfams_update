@@ -72,7 +72,7 @@
 
 
 
-### 3) Precision-Recall Analysis
+### 3) Precision-Recall Analysis to Fine-Tune Profiles
   A test set of sequences with known ontologies was used to test HMM precision and recall. Start with fasta file of sequences to test as well as a metadata file with associated family, gene, and variant classifications.
 
   | Sequence Header | Family1 | Family2 | Family3 | Family4 |
@@ -80,6 +80,13 @@
   | AF395881.gene.p01 | KPC | ClassA |
   |  AM087453.1.gene1.p01 |  SHV-LEN | SHV-LEN-OKP | ClassA |
   | gb\|CAJ19616.1\|ARO:3002441\|OKP-B-8 | OKP-B | OKP | SHV-LEN-OKP| ClassA
+
+  ##### Precision-Recall Calculations
+  _Precision_ (Positive Predictive Value) is defined as the number of relevant instances among retrieved instances. This can be written as _True Positives/(True Positives + False Positives)_
+  _Recall_ (Sensitivity) is defined as the fraction of relevant instances that were actually retrieved. This can be written as _True Positives/(True Positives + False Negatives)_
+
+  [alt text](https://github.com/dantaslab/resfams_update/blob/master/src/plots/precision_recall_eq.png "Precision-Recall Equations")
+
 
 
 I. cd-hit with a cutoff value of 1.0 was used to remove redundant sequences
@@ -95,8 +102,7 @@ III. Custom Script: hmmscan_parse.py parses hmmscan table output, retrieving rel
     python3 hmmscan_parse.py -i testSet_hmmscan.txt -o testSet_hmmscan_parsed.txt
 
 IV. Custom Script: precision_recall.py performs precision recall by comparing hmmscan output to known classification of input sequences.
-  * outputs 2 files: pr_analysis.txt and pr_fplist.txt
-
+  * outputs 2 files: pr_analysis.txt, which shows the results of precision-recall analysis, and pr_fplist.txt, which shows the sequences which were falsely hit against profiles.
 
     python3 precision_recall.py -f1 testSet_hmmscan_parsed.txt -f2 testSet_families.txt -m testSet_metadata.txt -o path/to/output/directory/
 
@@ -109,11 +115,11 @@ Final profile HMMs for families, genes, and variants were compiled into a final 
 
 I. HMMs were compiled using _cat_ function
 
-    cat family.hmm >> 191218-MB_Resfams.hmm
+    cat family.hmm >> 191212-MB_Resfams.hmm
 
 II. Custom Script: reformat_headers.py was used to reformat fasta headers using compiled metadata sequence data from HMM construction
 
-    python3 reformat_headers.py -f1 conmpiled_hmms_seqs_metadata.txt -f2 GA_metadata.txt -f3 family_sequences.faa -d 191218 -o path/to/output/directory/
+    python3 reformat_headers.py -f1 conmpiled_hmms_seqs_metadata.txt -f2 GA_metadata.txt -f3 family_sequences.faa -d 191212 -o path/to/output/directory/
 
   ##### Header Format:
   A format for fasta headers was developed to give the most information possible while also making easy to parse and avoid unwanted errors and interactions with existing informatics programs.
@@ -128,10 +134,11 @@ II. Custom Script: reformat_headers.py was used to reformat fasta headers using 
 
 ## Analysis
 
+
 ### 1) Total Hits Comparative Analysis
 
-![alt text](https://github.com/dantaslab/resfams_update/blob/master/Analysis/plots/191218-comparative_analysis.png "Total Hits Comparative Analysis")
+![alt text](https://github.com/dantaslab/resfams_update/blob/master/Analysis/plots/191212-comparative_analysis.png "Total Hits Comparative Analysis")
 
 ### 2) Resolution Comparative Analysis
 
-![alt text](https://github.com/dantaslab/resfams_update/blob/master/Analysis/plots/191218-resolution_analysis.png "Resolution Comparative Analysis")
+![alt text](https://github.com/dantaslab/resfams_update/blob/master/Analysis/plots/191212-resolution_analysis.png "Resolution Comparative Analysis")
