@@ -82,12 +82,21 @@
   | gb\|CAJ19616.1\|ARO:3002441\|OKP-B-8 | OKP-B | OKP | SHV-LEN-OKP| ClassA
 
   ##### Precision-Recall Calculations
-  _Precision_ (Positive Predictive Value) is defined as the number of relevant instances among retrieved instances. This can be written as _True Positives/(True Positives + False Positives)_
-  _Recall_ (Sensitivity) is defined as the fraction of relevant instances that were actually retrieved. This can be written as _True Positives/(True Positives + False Negatives)_
+  _Precision_ (Positive Predictive Value) is defined as the number of relevant instances among retrieved instances.
+  _Recall_ (Sensitivity) is defined as the fraction of relevant instances that were actually retrieved.
+  Both of these Equations can be written as:
 
   <p align="center">
     <img src="https://github.com/dantaslab/resfams_update/blob/master/src/precision_recall_eq.png" alt="Precision-Recall Equations"/>
   </p>
+
+  In the context of the analysis that we performed, we are interested in the hits we retrieved when running sequences against our Hmms and if they were accurate. As such we calculated precision and recall in this analysis with the following equations:
+
+  <p align="center">
+    <img src="https://github.com/dantaslab/resfams_update/blob/master/src/resfam_precision_recall_eq.png" alt="Resfams Precision-Recall Equations"/>
+  </p>
+
+  * Here, _Positive Hits_ are the sequences that we got hmmscan hits for that were are confirmed to be from the hit family. _Total Hits_ are the total number of hmmscan hits for a given family. _Relevent Sequences_ are the number of sequences in the dataset that are known to belong to a family.
 
 
 
