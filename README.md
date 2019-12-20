@@ -85,7 +85,7 @@
   _Precision_ (Positive Predictive Value) is defined as the number of relevant instances among retrieved instances. This can be written as _True Positives/(True Positives + False Positives)_
   _Recall_ (Sensitivity) is defined as the fraction of relevant instances that were actually retrieved. This can be written as _True Positives/(True Positives + False Negatives)_
 
-  ![alt text](https://github.com/dantaslab/resfams_update/blob/master/src/plots/precision_recall_eq.png "Precision-Recall Equations")
+  ![alt text](https://github.com/dantaslab/resfams_update/blob/master/src/precision_recall_eq.png "Precision-Recall Equations")
 
 
 
@@ -137,7 +137,7 @@ II. Custom Script: reformat_headers.py was used to reformat fasta headers using 
 
 ### 1) Total Hits Comparative Analysis
 
-![alt text](https://github.com/dantaslab/resfams_update/blob/master/Analysis/plots/191212-comparative_analysis.png "Total Hits Comparative Analysis")
+![alt text](https://github.com/dantaslab/resfams_update/blob/master/Analysis/plots/191218-comparative_analysis.png "Total Hits Comparative Analysis")
 
 ### 2) Resolution Comparative Analysis
 
