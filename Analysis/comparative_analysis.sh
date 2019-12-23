@@ -18,24 +18,24 @@
 #SBATCH -o logfiles/compA_%a.out # Standard output
 #SBATCH -e logfiles/compA_%a.out # Standard error
 
-root='/scratch/gdlab/mabernstein/project1/180216_prot_analysis/aro_rework/190702-family_analysis/ncbi/ncbi_tests/191218-pr_comp_analysis_2'
+root='path/to/analysis/root/directory'
 date='191218'
 method=`sed -n ${SLURM_ARRAY_TASK_ID}p ${root}/d01-datasets/analysis_methods.txt`
 declare -a datasets=("card" "megares" "fxnl_complete")
 meta="${root}/d01-datasets/${method}_families.txt"
 
 if [ $method == "MBhmms" ]; then
-  DB='/scratch/gdlab/mabernstein/project1/180216_prot_analysis/aro_rework/190702-family_analysis/ncbi/MB_hmms/v3-191212/191212-MB_Resfams.hmm'
+  DB='191212-MB_Resfams.hmm'
   meta="${root}/d01-datasets/MBhmms_families.txt"
   rm ${root}/${date}-hitCounts.txt
 elif [ $method == "resfams_core" ]; then
-  DB='/scratch/ref/gdlab/hmm/Resfams/latest/ResFams-only.hmm'
+  DB='ResFams-only.hmm'
   meta="${root}/d01-datasets/resfams_families.txt"
 elif [ $method == "resfams_full" ]; then
-  DB='/scratch/ref/gdlab/hmm/Resfams/latest/ResFams.hmm'
+  DB='ResFams.hmm'
   meta="${root}/d01-datasets/resfams_families.txt"
 elif [ $method == "ncbi" ]; then
-  DB='/scratch/gdlab/mabernstein/project1/180216_prot_analysis/aro_rework/190702-family_analysis/ncbi/ncbi_hmm/NCBI_amrfinder.hmm'
+  DB='NCBI_amrfinder.hmm'
   meta="${root}/d01-datasets/ncbi_families.txt"
 fi
 echo ${DB}
@@ -57,16 +57,16 @@ for i in "${datasets[@]}"
 do
    echo "$i"
 
-   cmd1="cd-hit -i ${root}/d01-datasets/full_datasets/${i}_protseqs.faa -o ${root}/d01-datasets/${date}-${i}_cdhit.faa -c 1"
+   cmd1="cd-hit -i ${i}_protseqs.faa -o ${date}-${i}_cdhit.faa -c 1"
    echo "Command: $cmd1"
    echo time $cmd1 | bash
 
    if [ $method == 'amrfinder' ]; then
-      cmd2="amrfinder --protein ${root}/d01-datasets/${date}-${i}_cdhit.faa --output ${root}/e0${SLURM_ARRAY_TASK_ID}-${method}/${date}-${method}-${i}_hmmscan.txt"
+      cmd2="amrfinder --protein ${date}-${i}_cdhit.faa --output ${root}/e0${SLURM_ARRAY_TASK_ID}-${method}/${date}-${method}-${i}_hmmscan.txt"
       echo "Command: $cmd2"
       echo time $cmd2 | bash
 
-      cmd3="python3 ${root}/scripts/amrfinder_parse.py -f1 ${root}/e0${SLURM_ARRAY_TASK_ID}-${method}/${date}-${method}-${i}_hmmscan.txt -m ${root}/d01-datasets/ncbi_families2.txt -o ${root}/e0${SLURM_ARRAY_TASK_ID}-${method}/${date}-${method}-${i}_hmmscan_parsed.txt"
+      cmd3="python3 amrfinder_parse.py -f1 ${root}/e0${SLURM_ARRAY_TASK_ID}-${method}/${date}-${method}-${i}_hmmscan.txt -m ${root}/d01-datasets/ncbi_families2.txt -o ${root}/e0${SLURM_ARRAY_TASK_ID}-${method}/${date}-${method}-${i}_hmmscan_parsed.txt"
       echo "Command: $cmd3"
       echo time $cmd3 | bash
 

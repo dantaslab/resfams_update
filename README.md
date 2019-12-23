@@ -115,6 +115,7 @@ III. Custom Script: hmmscan_parse.py parses hmmscan table output, retrieving rel
 IV. Custom Script: precision_recall.py performs precision recall by comparing hmmscan output to known classification of input sequences.
   * outputs 2 files: pr_analysis.txt, which shows the results of precision-recall analysis, and pr_fplist.txt, which shows the sequences which were falsely hit against profiles.
 
+
     python3 precision_recall.py -f1 testSet_hmmscan_parsed.txt -f2 testSet_families.txt -m testSet_metadata.txt -o path/to/output/directory/
 
 V. Using results of precision and recall analysis, gathering thresholds, and if needed hmm sequence sets, were adjusted. If any changes were made, analysis was repeated. Continued until a precision and recall greater than 90% was achieved for all profiles.
