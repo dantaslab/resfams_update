@@ -169,24 +169,24 @@ II. Custom Script: reformat_headers.py was used to reformat fasta headers using 
 
   II. hmmscan dataset against database
 
-      hmmscan --cut_ga --tblout analysis_hmmscan.txt database.hmm dataset_seqs_cdhit.faa
+    hmmscan --cut_ga --tblout analysis_hmmscan.txt database.hmm dataset_seqs_cdhit.faa
 
 
   III. Custom Script: hmmscan_parse.py parses hmmscan table output, retrieving relevant information for precision-recall analysis
   * database_families.txt is a family of database families with labels as to what level--family, gene, variant-- each is.
 
 
-      python3 hmmscan_parse.py -f1 analysis_hmmscan.txt -m database_families.txt -o analysis_hmmscan_parsed.txt
+    python3 hmmscan_parse.py -f1 analysis_hmmscan.txt -m database_families.txt -o analysis_hmmscan_parsed.txt
 
   Note: amrfinder module used its own program and parsing script to run against its database.
 
-      amrfinder --protein dataset_seqs_cdhit.faa --output analysis_output.txt
+    amrfinder --protein dataset_seqs_cdhit.faa --output analysis_output.txt
 
-      python3 amrfinder_parse.py -f1 analysis_output.txt -m ncbi_families.txt -o analysis_output_parsed.txt
+    python3 amrfinder_parse.py -f1 analysis_output.txt -m ncbi_families.txt -o analysis_output_parsed.txt
 
   IV. Custom Script: hmmscan_count.py counts the number of hits at the deepest ontology level found for each sequence.
 
-      python3 hmmscan_count.py -f1 analysis_hmmscan_parsed.txt -ds "dataset" -db "database" -o analysis-hitCounts.txt
+    python3 hmmscan_count.py -f1 analysis_hmmscan_parsed.txt -ds "dataset" -db "database" -o analysis-hitCounts.txt
 
   V. Hit counts are compiled and, using _Seaborn_, graphs were constructed for analysis
 
