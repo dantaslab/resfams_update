@@ -1,5 +1,5 @@
 # **Resfams Update 2019**
-2019 Update to resfams database
+2019 Update to Resfams database
 
 ---
 
@@ -73,7 +73,7 @@
 
 
 ### 3) Precision-Recall Analysis to Fine-Tune Profiles
-  ##### Precision-Recall Calculations
+  #### Precision-Recall Calculations
   _Precision_ (Positive Predictive Value) is defined as the number of relevant instances among retrieved instances.
   _Recall_ (Sensitivity) is defined as the fraction of relevant instances that were actually retrieved.
   Both of these Equations can be written as:
@@ -90,7 +90,7 @@
 
   * Here, _Positive Hits_ are the sequences that we got hmmscan hits for that were are confirmed to be from the hit family. _Total Hits_ are the total number of hmmscan hits for a given family. _Relevent Sequences_ are the number of sequences in the dataset that are known to belong to a family.
 
-  #### Workflow
+  #### Workflow:
   A test set of sequences with known ontologies was used to test HMM precision and recall. Start with fasta file of sequences to test as well as a metadata file with associated family, gene, and variant classifications.
 
   | Sequence Header | Family1 | Family2 | Family3 | Family4 |
@@ -132,7 +132,7 @@ II. Custom Script: reformat_headers.py was used to reformat fasta headers using 
 
     python3 reformat_headers.py -f1 conmpiled_hmms_seqs_metadata.txt -f2 GA_metadata.txt -f3 family_sequences.faa -d 191212 -o path/to/output/directory/
 
-  ##### Header Format:
+  #### Header Format:
   A format for fasta headers was developed to give the most information possible while also making easy to parse and avoid unwanted errors and interactions with existing informatics programs.
   These headers were constructed from existing information, primarily from the old headers, and supplemented by Resfams information we collected in the Hmm profile building process.
 
@@ -141,20 +141,67 @@ II. Custom Script: reformat_headers.py was used to reformat fasta headers using 
     MB-RF002|MB-RF003|MB-RF011~~~gb=AAR21614.1|card=ARO:3002529~~~AAC(3)-Id
 
 
-
+---
 
 ## Analysis
+  In order to assess the update to Resfams, we performed analysis on the _Precision and Recall_ as well as the _Resolution_ of the updated database. That is, we wanted to see the accuracy of the new database and at what level--family, gene, variant-- we were able to classify sequences.
+
+### 1) Resolution Comparative Analysis:
+  Resolution analysis was performed against 5 different databases and across 3 datasets.
+  ###### Databases:
+  * MBhmms
+  * ncbi amrfinder module
+  * ncbi hmms
+  * Resfams-full
+  * Resfams-core
 
 
-### 1) Total Hits Comparative Analysis
+  ###### Databases:
+  * CARD dataset (3.05) -- 2602 Unique Seqs
+  * fxl metgenomic dataset provided by Dantas Lab-- 23095 Unique Seqs
+  * Megares dataset (2.0) -- 6742 Unique Sequences
 
-<p align="center">
-  <img src="https://github.com/dantaslab/resfams_update/blob/master/Analysis/plots/191218-comparative_analysis.png" alt="Total Hits Comparative Analysis"/>
-</p>
+
+  ##### Workflow:
+  I. cd-hit with a cutoff value of 1.0 was used to remove redundant sequences
+
+    cd-hit -i dataset_seqs.faa -o dataset_seqs_cdhit.faa -c 1.0
+
+  II. hmmscan dataset against database
+
+      hmmscan --cut_ga --tblout analysis_hmmscan.txt database.hmm dataset_seqs_cdhit.faa
 
 
-### 2) Resolution Comparative Analysis
+  III. Custom Script: hmmscan_parse.py parses hmmscan table output, retrieving relevant information for precision-recall analysis
+  * database_families.txt is a family of database families with labels as to what level--family, gene, variant-- each is.
 
-<p align="center">
-  <img src="https://github.com/dantaslab/resfams_update/blob/master/Analysis/plots/191218-resolution_analysis.png" alt="Resolution Comparative Analysis"/>
-</p>
+
+      python3 hmmscan_parse.py -f1 analysis_hmmscan.txt -m database_families.txt -o analysis_hmmscan_parsed.txt
+
+  Note: amrfinder module used its own program and parsing script to run against its database.
+
+      amrfinder --protein dataset_seqs_cdhit.faa --output analysis_output.txt
+
+      python3 amrfinder_parse.py -f1 analysis_output.txt -m ncbi_families.txt -o analysis_output_parsed.txt
+
+  IV. Custom Script: hmmscan_count.py counts the number of hits at the deepest ontology level found for each sequence.
+
+      python3 hmmscan_count.py -f1 analysis_hmmscan_parsed.txt -ds "dataset" -db "database" -o analysis-hitCounts.txt
+
+  V. Hit counts are compiled and, using _Seaborn_, graphs were constructed for analysis
+
+  #### A) Total Hits Comparison
+
+  <p align="center">
+    <img src="https://github.com/dantaslab/resfams_update/blob/master/Analysis/plots/191218-comparative_analysis.png" alt="Total Hits Comparative Analysis"/>
+  </p>
+
+
+  #### B) Resolution Comparison
+
+  <p align="center">
+    <img src="https://github.com/dantaslab/resfams_update/blob/master/Analysis/plots/191218-resolution_analysis.png" alt="Resolution Comparative Analysis"/>
+  </p>
+
+
+### 2) Precision and Recall Comparative Analysis:
