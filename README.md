@@ -145,7 +145,7 @@ II. Custom Script: reformat_headers.py was used to reformat fasta headers using 
 ---
 
 ## Analysis
-  In order to assess the update to Resfams, we performed analysis on the _Precision and Recall_ as well as the _Resolution_ of the updated database. That is, we wanted to see the accuracy of the new database and at what level--family, gene, variant-- we were able to classify sequences.
+  To assess the update to Resfams, we performed analysis on the _Precision and Recall_ as well as the _Resolution_ of the updated database. That is, we wanted to see the accuracy of the new database and at what level--family, gene, variant-- we were able to classify sequences.
 
 ### 1) Resolution Comparative Analysis:
   Resolution analysis was performed against 5 different databases and across 3 datasets.
@@ -157,7 +157,7 @@ II. Custom Script: reformat_headers.py was used to reformat fasta headers using 
   * Resfams-core
 
 
-  ###### Databases:
+  ###### Datasets:
   * CARD dataset (3.05) -- 2602 Unique Seqs
   * fxl metgenomic dataset provided by Dantas Lab-- 23095 Unique Seqs
   * Megares dataset (2.0) -- 6742 Unique Sequences
