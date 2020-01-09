@@ -213,6 +213,7 @@ II. Custom Script: reformat_headers.py was used to reformat fasta headers using 
   * MBhmms
   * Resfams-full
 
+
   ###### Datasets:
   * CARD dataset (3.05) -- 2602 Unique Sequences
   * NCBI Amrfinder Proteins -- 5823 Unique Sequences
@@ -242,15 +243,17 @@ II. Custom Script: reformat_headers.py was used to reformat fasta headers using 
 
 
   IV. Custom Script: precision_recall_v02.py performs precision recall by comparing hmmscan output to known classification of input sequences.
-    * outputs 3 files: pr_analysis.txt, which shows the results of precision-recall analysis, pr_fplist.txt, which shows the sequences which were falsely hit against profiles, and pr_nhlist.txt, which shows the known sequences from the dataset for a family that did not get a hit.
+  * outputs 3 files: pr_analysis.txt, which shows the results of precision-recall analysis, pr_fplist.txt, which shows the sequences which were falsely hit against profiles, and pr_nhlist.txt, which shows the known sequences from the dataset for a family that did not get a hit.
 
 
     python3 precision_recall_v02.py -f1 MBHmms_hmmscan_parsed.txt -f2 database_families.txt -m MBHmms_blast_parsed.txt -o path/to/output/directory/
 
 
   V. Manual curation of MBHmms_fplist.txt and MBHmms_nhlist.txt to confirm that the results are accurate.
-    * for MBHmms_fplist.txt, sequences that are not actually false positives (known to not belong to indicated family are removed).
-    * for MBHmms_nhlist.txt sequences that do belong to indicated family are removed.
+  * for MBHmms_fplist.txt, sequences that are not actually false positives (known to not belong to indicated family are removed).
+  * for MBHmms_nhlist.txt sequences that do belong to indicated family are removed.
+
+
   Curated files are inputed into custom script that outputs a new metadata file to be used for another run of precision-recall analysis.
 
     python3 add_tp_seqs.py -f1 MBHmms_blast_parsed.txt -f2 MBHmms_fplist.txt  -f3 MBHmms_nhlist.txt -o MBHmms_metadata.txt
