@@ -1,3 +1,0 @@
-resfams_full	card	1093	996	304	2394
-resfams_full	megares	2369	2050	1145	5565
-resfams_full	fxnl_complete	2557	1606	5696	9860
