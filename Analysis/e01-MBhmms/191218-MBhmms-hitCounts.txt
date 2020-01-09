@@ -1,3 +1,0 @@
-MBhmms	card	413	1116	683	2213
-MBhmms	megares	941	2569	1352	4863
-MBhmms	fxnl_complete	1080	1450	172	2703
