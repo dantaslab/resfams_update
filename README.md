@@ -194,14 +194,14 @@ II. Custom Script: reformat_headers.py was used to reformat fasta headers using 
   #### A) Total Hits Comparison
 
   <p align="center">
-    <img src="https://github.com/dantaslab/resfams_update/blob/master/Analysis/plots/191218-comparative_analysis.png" alt="Total Hits Comparative Analysis"/>
+    <img src="https://github.com/dantaslab/resfams_update/blob/master/Analysis/Resolution_Analysis/plots/191218-comparative_analysis.png" alt="Total Hits Comparative Analysis"/>
   </p>
 
 
   #### B) Resolution Comparison
 
   <p align="center">
-    <img src="https://github.com/dantaslab/resfams_update/blob/master/Analysis/plots/191218-resolution_analysis.png" alt="Resolution Comparative Analysis"/>
+    <img src="https://github.com/dantaslab/resfams_update/blob/master/Analysis/Resolution_Analysis/plots/191218-resolution_analysis.png" alt="Resolution Comparative Analysis"/>
   </p>
 
 
