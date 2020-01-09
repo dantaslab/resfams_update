@@ -116,7 +116,7 @@ IV. Custom Script: precision_recall.py performs precision recall by comparing hm
   * outputs 2 files: pr_analysis.txt, which shows the results of precision-recall analysis, and pr_fplist.txt, which shows the sequences which were falsely hit against profiles.
 
 
-    python3 precision_recall.py -f1 testSet_hmmscan_parsed.txt -f2 testSet_families.txt -m testSet_metadata.txt -o path/to/output/directory/
+  python3 precision_recall.py -f1 testSet_hmmscan_parsed.txt -f2 testSet_families.txt -m testSet_metadata.txt -o path/to/output/directory/
 
 V. Using results of precision and recall analysis, gathering thresholds, and if needed hmm sequence sets, were adjusted. If any changes were made, analysis was repeated. Continued until a precision and recall greater than 90% was achieved for all profiles.
 
@@ -158,8 +158,8 @@ II. Custom Script: reformat_headers.py was used to reformat fasta headers using 
 
 
   ###### Datasets:
-  * CARD dataset (3.05) -- 2602 Unique Seqs
-  * fxl metgenomic dataset provided by Dantas Lab-- 23095 Unique Seqs
+  * CARD dataset (3.05) -- 2602 Unique Sequences
+  * fxl metgenomic dataset provided by Dantas Lab-- 23095 Unique Sequences
   * Megares dataset (2.0) -- 6742 Unique Sequences
 
 
@@ -177,7 +177,7 @@ II. Custom Script: reformat_headers.py was used to reformat fasta headers using 
   * database_families.txt is a family of database families with labels as to what level--family, gene, variant-- each is.
 
 
-    python3 hmmscan_parse.py -f1 analysis_hmmscan.txt -m database_families.txt -o analysis_hmmscan_parsed.txt
+  python3 hmmscan_parse.py -f1 analysis_hmmscan.txt -m database_families.txt -o analysis_hmmscan_parsed.txt
 
   Note: amrfinder module used its own program and parsing script to run against its database.
 
@@ -205,4 +205,73 @@ II. Custom Script: reformat_headers.py was used to reformat fasta headers using 
   </p>
 
 
+
 ### 2) Precision and Recall Comparative Analysis:
+  Precision and Recall Analysis compared the performance of the new Resfams against the old version. We conducted the analysis using 2 different datasets.
+
+  ###### Databases:
+  * MBhmms
+  * Resfams-full
+
+  ###### Datasets:
+  * CARD dataset (3.05) -- 2602 Unique Sequences
+  * NCBI Amrfinder Proteins -- 5823 Unique Sequences
+
+
+  ##### Workflow:
+  We will run the anlysis against the New Resfams first because its information is easier to parse and can easily be mapped to Old Resfams profiles.
+
+  I. blastp against new Resfams was used to get initially classify sequences.
+
+    blastp -db MB_Resfams.hmm -query AMRProt.fasta -outfmt '6 qseqid sseqid pident evalue bitscore qcovs' -out MBHmms_blast.txt
+
+
+  II. Custom Script: blast_aro_parse.py parses blast output, restricting hits by set evalue, percent identity, and query coverage (we used 1e-10, 80%, 80% for each respectively) and outputs a metadata file to be used for precision-recall analysis.
+
+    python3 blast_aro_parse_v01.py -f1 MBHmms_blast.txt -o MBHmms_blast_parsed.txt
+
+
+  III. hmmscan dataset against database of interest
+
+    hmmscan --cut_ga --tblout MBHmms_hmmscan.txt MB_Resfams.hmm AMRProt.fasta
+
+
+  III. Custom Script: hmmscan_parse.py parses hmmscan table output, retrieving relevant information for precision-recall analysis
+  * database_families.txt is a family of database families with labels as to what level--family, gene, variant-- each is.
+
+
+    python3 hmmscan_parse.py -f1 MBHmms_hmmscan.txt -m database_families.txt -o MBHmms_hmmscan_parsed.txt
+
+
+  IV. Custom Script: precision_recall_v02.py performs precision recall by comparing hmmscan output to known classification of input sequences.
+    * outputs 3 files: pr_analysis.txt, which shows the results of precision-recall analysis, pr_fplist.txt, which shows the sequences which were falsely hit against profiles, and pr_nhlist.txt, which shows the known sequences from the dataset for a family that did not get a hit.
+
+
+    python3 precision_recall.py -f1 MBHmms_hmmscan_parsed.txt -f2 database_families.txt -m MBHmms_blast_parsed.txt -o path/to/output/directory/
+
+
+  V. Manual curation of MBHmms_fplist.txt and MBHmms_nhlist.txt to confirm that the results are accurate.
+    * for MBHmms_fplist.txt, sequences that are not actually false positives (known to not belong to indicated family are removed).
+    * for MBHmms_nhlist.txt sequences that do belong to indicated family are removed.
+  Curated files are inputed into custom script that outputs a new metadata file to be used for another run of precision-recall analysis.
+
+    python3 add_tp_seqs.py -f1 MBHmms_blast_parsed.txt -f2 MBHmms_fplist.txt  -f3 MBHmms_nhlist.txt -o MBHmms_metadata.txt
+
+
+  VI. precision-recall.py is run again using the new metadata file.
+
+
+  VII. Custom Script: resfams_metadata_conversion.py is used to map the metadata file for Old Resfams. a mapping file between the databases is needed for this.
+
+    python3 resfams_metadata_conversion.py -f1 MBHmms_metadata.txt -m MBhmms-Resfams_conversion.txt -o OldRes_metadata.txt
+
+  VIII. hmmscan, hmmscan parsing, and precision-recall are now run in the same manner for Old Resfams using the new metadata file. Output OldRes_fplist.txt and OldRes_nhlist.txt are checked for validity.
+
+
+  IX. Precision and Recall results are compiled and, using _Seaborn_, graphs were constructed for analysis.
+
+
+  #### A) Precision Comparison
+
+
+  #### B) Recall Comparison
