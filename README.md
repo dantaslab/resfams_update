@@ -173,7 +173,7 @@ II. Custom Script: reformat_headers.py was used to reformat fasta headers using 
     hmmscan --cut_ga --tblout analysis_hmmscan.txt database.hmm dataset_seqs_cdhit.faa
 
 
-  III. Custom Script: hmmscan_parse.py parses hmmscan table output, retrieving relevant information for precision-recall analysis
+  III. Custom Script: hmmscan_parse_v02.py parses hmmscan table output, retrieving relevant information for precision-recall analysis
   * database_families.txt is a family of database families with labels as to what level--family, gene, variant-- each is.
 
 
@@ -221,33 +221,31 @@ II. Custom Script: reformat_headers.py was used to reformat fasta headers using 
   ##### Workflow:
   We will run the anlysis against the New Resfams first because its information is easier to parse and can easily be mapped to Old Resfams profiles.
 
-  I. blastp against new Resfams was used to get initially classify sequences.
+  I. blastp against new Resfams was used to get initial classification of dataset sequences by profile family.
 
     blastp -db MB_Resfams.hmm -query AMRProt.fasta -outfmt '6 qseqid sseqid pident evalue bitscore qcovs' -out MBHmms_blast.txt
 
 
-  II. Custom Script: blast_aro_parse.py parses blast output, restricting hits by set evalue, percent identity, and query coverage (we used 1e-10, 80%, 80% for each respectively) and outputs a metadata file to be used for precision-recall analysis.
+  II. Custom Script: blast_aro_parse.py parses blast output, restricting hits by predetermined evalue, percent identity, and query coverage (we used 1e-10, 80%, 80% for each respectively) and outputs a metadata file to be used for precision-recall analysis.
 
     python3 blast_aro_parse_v01.py -f1 MBHmms_blast.txt -o MBHmms_blast_parsed.txt
 
 
-  III. hmmscan dataset against database of interest
+  III. hmmscan dataset against New Resfams.
 
     hmmscan --cut_ga --tblout MBHmms_hmmscan.txt MB_Resfams.hmm AMRProt.fasta
 
 
   III. Custom Script: hmmscan_parse.py parses hmmscan table output, retrieving relevant information for precision-recall analysis
-  * database_families.txt is a family of database families with labels as to what level--family, gene, variant-- each is.
 
-
-    python3 hmmscan_parse.py -f1 MBHmms_hmmscan.txt -m database_families.txt -o MBHmms_hmmscan_parsed.txt
+    python3 hmmscan_parse.py -i MBHmms_hmmscan.txt  -o MBHmms_hmmscan_parsed.txt
 
 
   IV. Custom Script: precision_recall_v02.py performs precision recall by comparing hmmscan output to known classification of input sequences.
     * outputs 3 files: pr_analysis.txt, which shows the results of precision-recall analysis, pr_fplist.txt, which shows the sequences which were falsely hit against profiles, and pr_nhlist.txt, which shows the known sequences from the dataset for a family that did not get a hit.
 
 
-    python3 precision_recall.py -f1 MBHmms_hmmscan_parsed.txt -f2 database_families.txt -m MBHmms_blast_parsed.txt -o path/to/output/directory/
+    python3 precision_recall_v02.py -f1 MBHmms_hmmscan_parsed.txt -f2 database_families.txt -m MBHmms_blast_parsed.txt -o path/to/output/directory/
 
 
   V. Manual curation of MBHmms_fplist.txt and MBHmms_nhlist.txt to confirm that the results are accurate.
@@ -258,7 +256,7 @@ II. Custom Script: reformat_headers.py was used to reformat fasta headers using 
     python3 add_tp_seqs.py -f1 MBHmms_blast_parsed.txt -f2 MBHmms_fplist.txt  -f3 MBHmms_nhlist.txt -o MBHmms_metadata.txt
 
 
-  VI. precision-recall.py is run again using the new metadata file.
+  VI. precision-recall_v02.py is run again using the new metadata file.
 
 
   VII. Custom Script: resfams_metadata_conversion.py is used to map the metadata file for Old Resfams. a mapping file between the databases is needed for this.

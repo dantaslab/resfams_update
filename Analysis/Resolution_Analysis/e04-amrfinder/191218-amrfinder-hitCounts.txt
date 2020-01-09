@@ -1,0 +1,3 @@
+amrfinder	card	48	236	160	445
+amrfinder	megares	51	289	204	545
+amrfinder	fxnl_complete	14	79	45	139
