@@ -274,5 +274,13 @@ II. Custom Script: reformat_headers.py was used to reformat fasta headers using 
 
   #### A) Precision Comparison
 
+  <p align="center">
+    <img src="https://github.com/dantaslab/resfams_update/blob/master/Analysis/Precision-Recall_Analysis/plots/201010-ncbi_precision.png" alt="Resolution Comparative Analysis"/>
+  </p>
+
 
   #### B) Recall Comparison
+
+  <p align="center">
+    <img src="https://github.com/dantaslab/resfams_update/blob/master/Analysis/Precision-Recall_Analysis/plots/201010-ncbi_recall.png" alt="Resolution Comparative Analysis"/>
+  </p>
